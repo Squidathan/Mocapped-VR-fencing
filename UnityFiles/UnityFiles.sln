@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator", "Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj", "{E74BA20E-1F73-1C72-D830-4996972534EF}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets", "Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj", "{111B4DF7-F591-840F-D37B-A61E82339489}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj", "{BB8811DC-4A20-5874-68DC-05DB23E82DE7}"
@@ -15,6 +17,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E74BA20E-1F73-1C72-D830-4996972534EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74BA20E-1F73-1C72-D830-4996972534EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74BA20E-1F73-1C72-D830-4996972534EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74BA20E-1F73-1C72-D830-4996972534EF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{111B4DF7-F591-840F-D37B-A61E82339489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{111B4DF7-F591-840F-D37B-A61E82339489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{111B4DF7-F591-840F-D37B-A61E82339489}.Release|Any CPU.ActiveCfg = Release|Any CPU
