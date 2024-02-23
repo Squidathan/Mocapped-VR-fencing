@@ -15,11 +15,10 @@ public class GameManager : MonoBehaviour
     // game type or menu select
     public enum gameMode
     {
-        activitySelect,
+        Menu,
         StaticManikin
     }
-    [SerializeField]
-    public static gameMode state = gameMode.activitySelect;
+    public static gameMode state;
 
 
     private void Start()
@@ -44,8 +43,9 @@ public class GameManager : MonoBehaviour
     public event Action onMenu;
     public void Menu()
     {
-        state = gameMode.activitySelect;
+        state = gameMode.Menu;
         onMenu?.Invoke();
+        
     }
 
 

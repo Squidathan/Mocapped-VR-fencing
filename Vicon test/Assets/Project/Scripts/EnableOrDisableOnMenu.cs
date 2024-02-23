@@ -16,6 +16,7 @@ public class EnableOrDisableOnMenu : MonoBehaviour
     {
         // Enabling and disabling the objects if changing state
         GameManager.gameManager.onMenu += DisableActivity;
+        
     }
     private void OnDestroy()
     {
