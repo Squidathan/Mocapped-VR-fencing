@@ -66,6 +66,7 @@
     <Compile Include="Assets\Project\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Project\Scripts\StaticManikinManager.cs" />
     <Compile Include="Assets\Project\Scripts\EnableOrDisableOnMenu.cs" />
+    <Compile Include="Assets\Project\Scripts\Enabler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -24,4 +24,7 @@ public class StaticManikinEnable : MonoBehaviour
     {
         staticManikinEnableObject.SetActive(true);
     }
+
+
+
 }
