@@ -62,11 +62,11 @@
     <Compile Include="Assets\Project\Scripts\StaticManikinEnable.cs" />
     <Compile Include="Assets\Project\Scripts\GameManager.cs" />
     <Compile Include="Assets\Project\Scripts\staticManikinSelect.cs" />
+    <Compile Include="Assets\Project\Scripts\enabler.cs" />
     <Compile Include="Assets\Project\Scripts\EnableOrDisableOnActivity.cs" />
     <Compile Include="Assets\Project\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Project\Scripts\StaticManikinManager.cs" />
     <Compile Include="Assets\Project\Scripts\EnableOrDisableOnMenu.cs" />
-    <Compile Include="Assets\Project\Scripts\Enabler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
