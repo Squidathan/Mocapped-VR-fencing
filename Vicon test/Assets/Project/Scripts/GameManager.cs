@@ -16,7 +16,10 @@ public class GameManager : MonoBehaviour
     public enum gameMode
     {
         Menu,
-        StaticManikin
+        StaticManikin,
+        PracticeAction,
+        TimeTrial,
+        KeepDistance
     }
     public static gameMode state;
 
@@ -31,22 +34,30 @@ public class GameManager : MonoBehaviour
 
     //Events
 
-    // select Static manikin activity
-    public event Action OnStaticManikin;
-    public void StaticManikin()
-    {
-        state = gameMode.StaticManikin;
-        OnStaticManikin?.Invoke();
-    }
+        // activity selected
+        public event Action OnActivity;
 
-    // select to go to menu
-    public event Action onMenu;
-    public void Menu()
-    {
-        state = gameMode.Menu;
-        onMenu?.Invoke();
+
+        // select Static manikin activity
+        public event Action OnStaticManikin;
+        public void StaticManikin()
+        {
+            state = gameMode.StaticManikin;
+            OnStaticManikin?.Invoke();
+            OnActivity?.Invoke();
+
+        }
+
+
+
+        // select to go to menu
+        public event Action onMenu;
+        public void Menu()
+        {
+            state = gameMode.Menu;
+            onMenu?.Invoke();
         
-    }
+        }
 
 
 }
