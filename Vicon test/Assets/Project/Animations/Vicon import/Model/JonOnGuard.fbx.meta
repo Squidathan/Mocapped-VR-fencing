@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 63630be756a1b094ba595b4f237071d0
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: onGuard_mcp
+      takeName: onGuard_mcp
+      internalID: -8262132399244695161
+      firstFrame: 980
+      lastFrame: 2200
+      wrapMode: 0
+      orientationOffsetY: -60
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 980
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: jonathan:Labeling:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: JonOnGuard(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan
+      parentName: JonOnGuard(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling
+      parentName: jonathan
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:Hips
+      parentName: jonathan
+      position: {x: 0, y: 0, z: 0.89935267}
+      rotation: {x: 0.017400939, y: 0.016078468, z: 0.9976933, w: 0.06361425}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:Spine
+      parentName: jonathan:Labeling:Hips
+      position: {x: -0, y: 0, z: 0.20134404}
+      rotation: {x: -0.09898497, y: 0.026179904, z: 0.13031955, w: 0.9861711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:Head
+      parentName: jonathan:Labeling:Spine
+      position: {x: -0, y: 0, z: 0.42185995}
+      rotation: {x: 0.0010694079, y: -0.07092248, z: 0.2871025, w: 0.9552702}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:Head_End
+      parentName: jonathan:Labeling:Head
+      position: {x: -0, y: 0, z: 0.12310674}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftShoulder
+      parentName: jonathan:Labeling:Spine
+      position: {x: -0, y: -0.013587813, z: 0.26242423}
+      rotation: {x: -0.06504208, y: 0.619985, z: -0.21248059, w: 0.7524894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftArm
+      parentName: jonathan:Labeling:LeftShoulder
+      position: {x: -0, y: 0, z: 0.19747445}
+      rotation: {x: -0.061252132, y: 0.0934875, z: -0.019280065, w: 0.99354756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftForeArm
+      parentName: jonathan:Labeling:LeftArm
+      position: {x: -0, y: 0, z: 0.28211156}
+      rotation: {x: -0.032648005, y: -0.010924728, z: -0.23628598, w: 0.97107345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftHand
+      parentName: jonathan:Labeling:LeftForeArm
+      position: {x: -0, y: 0, z: 0.23151469}
+      rotation: {x: -0.016597917, y: -0.20723902, z: -0.0035165977, w: 0.9781432}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftHandThumb1
+      parentName: jonathan:Labeling:LeftHand
+      position: {x: 0.031105034, y: 0.033297006, z: 0.04477873}
+      rotation: {x: -0.38480818, y: 0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftHandPinky1
+      parentName: jonathan:Labeling:LeftHand
+      position: {x: -0, y: -0.050519593, z: 0.093001984}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftHandIndex1
+      parentName: jonathan:Labeling:LeftHand
+      position: {x: -0, y: 0.024111625, z: 0.11940995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightShoulder
+      parentName: jonathan:Labeling:Spine
+      position: {x: -0, y: -0.013587813, z: 0.26242423}
+      rotation: {x: -0.07011035, y: -0.6823121, z: 0.17187008, w: 0.70710355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightArm
+      parentName: jonathan:Labeling:RightShoulder
+      position: {x: -0, y: 0, z: 0.19747445}
+      rotation: {x: -0.11021688, y: -0.097868785, z: -0.6376253, w: 0.75611377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightForeArm
+      parentName: jonathan:Labeling:RightArm
+      position: {x: -0, y: 0, z: 0.28211156}
+      rotation: {x: -0.030023914, y: 0.022686914, z: 0.36399645, w: 0.9306398}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightHand
+      parentName: jonathan:Labeling:RightForeArm
+      position: {x: -0, y: 0, z: 0.23151469}
+      rotation: {x: 0.03087242, y: 0.59073275, z: -0.022628138, w: 0.80595887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightHandThumb1
+      parentName: jonathan:Labeling:RightHand
+      position: {x: -0.031105034, y: 0.033297006, z: 0.04477873}
+      rotation: {x: -0.38480818, y: 0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightHandPinky1
+      parentName: jonathan:Labeling:RightHand
+      position: {x: -0, y: -0.050519593, z: 0.093001984}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightHandIndex1
+      parentName: jonathan:Labeling:RightHand
+      position: {x: -0, y: 0.024111625, z: 0.11940995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftUpLeg
+      parentName: jonathan:Labeling:Hips
+      position: {x: 0.101423234, y: 0, z: 0}
+      rotation: {x: 0.07429198, y: -0.094900236, z: -0.15905145, w: 0.9798865}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftLeg
+      parentName: jonathan:Labeling:LeftUpLeg
+      position: {x: -0, y: 0, z: -0.458702}
+      rotation: {x: -0.31533098, y: 0.020025885, z: -0.012766758, w: 0.9486846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftFoot
+      parentName: jonathan:Labeling:LeftLeg
+      position: {x: -0, y: 0, z: -0.44953623}
+      rotation: {x: 0.15657549, y: -0.06636723, z: 0.06034766, w: 0.9835841}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftToeBase
+      parentName: jonathan:Labeling:LeftFoot
+      position: {x: -0, y: 0.1590801, z: 0}
+      rotation: {x: 0.15734729, y: -0, z: -0, w: 0.98754334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftToeEnd
+      parentName: jonathan:Labeling:LeftToeBase
+      position: {x: -0, y: 0.08028701, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightUpLeg
+      parentName: jonathan:Labeling:Hips
+      position: {x: -0.101423234, y: 0, z: 0}
+      rotation: {x: 0.09718568, y: 0.095682874, z: 0.3679643, w: 0.9197837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightLeg
+      parentName: jonathan:Labeling:RightUpLeg
+      position: {x: -0, y: 0, z: -0.458702}
+      rotation: {x: -0.32111552, y: 0.019971492, z: -0.012381378, w: 0.94674844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightFoot
+      parentName: jonathan:Labeling:RightLeg
+      position: {x: -0, y: 0, z: -0.44953623}
+      rotation: {x: 0.1386188, y: 0.06447282, z: -0.12835234, w: 0.97987443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightToeBase
+      parentName: jonathan:Labeling:RightFoot
+      position: {x: -0, y: 0.1590801, z: 0}
+      rotation: {x: 0.15086454, y: -0, z: -0, w: 0.9885545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightToeEnd
+      parentName: jonathan:Labeling:RightToeBase
+      position: {x: -0, y: 0.08028701, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
