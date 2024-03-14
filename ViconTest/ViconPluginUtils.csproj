@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C8BDC736-39EF-923C-482D-16949DB3B1AA}</ProjectGuid>
+    <ProjectGuid>{8593F2D9-8CEB-51B3-DDB9-8A428079860B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ViconPluginUtils</AssemblyName>

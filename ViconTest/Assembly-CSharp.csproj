@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{62BFFBDB-4C9A-2C1B-EC6E-5E8897583910}</ProjectGuid>
+    <ProjectGuid>{8238E988-7E79-AFCD-6200-AC248FA62630}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,26 +57,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Project\Scripts\MenuSelect.cs" />
+    <Compile Include="Assets\ToKeepDistanceMenu.cs" />
     <Compile Include="Assets\Project\Scripts\MainMenuManager.cs" />
     <Compile Include="Assets\Project\Scripts\DisableOnActivity.cs" />
     <Compile Include="Assets\Project\Scripts\startStaticManikin.cs" />
     <Compile Include="Assets\Project\Scripts\ToStaticManikinMenu.cs" />
+    <Compile Include="Assets\Project\Scripts\opponentHitByPlayerSword.cs" />
     <Compile Include="Assets\Project\Scripts\SoundOnHit.cs" />
     <Compile Include="Assets\Project\Scripts\Activity.cs" />
     <Compile Include="Assets\Project\Scripts\StaticManikinEnable.cs" />
     <Compile Include="Assets\Project\Scripts\GameManager.cs" />
     <Compile Include="Assets\Project\Scripts\staticManikinSelect.cs" />
     <Compile Include="Assets\Project\Scripts\enabler.cs" />
-    <Compile Include="Assets\Project\Scripts\EnableOrDisableOnActivity.cs" />
-    <Compile Include="Assets\Project\Scripts\StaticManikin.cs" />
-    <Compile Include="Assets\Project\Scripts\soundOnHitStaticCollider.cs" />
-    <Compile Include="Assets\Project\Scripts\EnableOrDisableOnMenu.cs" />
-    <Compile Include="Assets\Project\Scripts\opponentHitByPlayerSword.cs" />
-    <Compile Include="Assets\Project\Scripts\playerHit.cs" />
-    <Compile Include="Assets\Project\Scripts\KeepDistance.cs" />
-    <Compile Include="Assets\ToKeepDistanceMenu.cs" />
     <Compile Include="Assets\StartKeepDistance.cs" />
     <Compile Include="Assets\OtherObjectsRootMotionUpdate.cs" />
+    <Compile Include="Assets\Project\Scripts\EnableOrDisableOnActivity.cs" />
+    <Compile Include="Assets\Project\Scripts\StaticManikin.cs" />
+    <Compile Include="Assets\Project\Scripts\playerHit.cs" />
+    <Compile Include="Assets\Project\Scripts\KeepDistance.cs" />
+    <Compile Include="Assets\Project\Scripts\soundOnHitStaticCollider.cs" />
+    <Compile Include="Assets\Project\Scripts\EnableOrDisableOnMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -850,31 +850,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR_Input_Editor.csproj">
-      <Project>{232BA07F-556B-5E88-09C3-A41B2FB398EC}</Project>
+      <Project>{3AA03CDF-66F8-1C00-2868-A03637BDEEC5}</Project>
       <Name>SteamVR_Input_Editor</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{BAC29039-01AF-3916-B95C-883D00E1B415}</Project>
+      <Project>{B2E4609C-3DAB-4614-F03D-69BE30A9F46F}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Editor.csproj">
-      <Project>{DB157657-08FD-B95A-A158-09E9E7957663}</Project>
+      <Project>{EBEA8EE7-3564-4705-08E6-0E331B138FBD}</Project>
       <Name>SteamVR_Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{CA6F264D-1FAD-D599-F79E-5BC12DFE7D0E}</Project>
+      <Project>{CE28F0A6-AED3-173F-A851-DF7144DBEBBC}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="ViconPluginUtils.csproj">
-      <Project>{C8BDC736-39EF-923C-482D-16949DB3B1AA}</Project>
+      <Project>{8593F2D9-8CEB-51B3-DDB9-8A428079860B}</Project>
       <Name>ViconPluginUtils</Name>
     </ProjectReference>
     <ProjectReference Include="Scripts.csproj">
-      <Project>{BAC7CA97-A3FD-CCFA-3299-729808A119C8}</Project>
+      <Project>{C17ACBAF-9618-D673-FA42-6BBFBEDA63EB}</Project>
       <Name>Scripts</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR.csproj">
-      <Project>{2201BD47-3068-ED83-E6B5-5324751E4509}</Project>
+      <Project>{50C8EC39-0EAF-ACD7-BA23-37BC6E7939A6}</Project>
       <Name>SteamVR</Name>
     </ProjectReference>
   </ItemGroup>

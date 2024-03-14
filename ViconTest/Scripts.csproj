@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BAC7CA97-A3FD-CCFA-3299-729808A119C8}</ProjectGuid>
+    <ProjectGuid>{C17ACBAF-9618-D673-FA42-6BBFBEDA63EB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Scripts</AssemblyName>
@@ -677,7 +677,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ViconPluginUtils.csproj">
-      <Project>{C8BDC736-39EF-923C-482D-16949DB3B1AA}</Project>
+      <Project>{8593F2D9-8CEB-51B3-DDB9-8A428079860B}</Project>
       <Name>ViconPluginUtils</Name>
     </ProjectReference>
   </ItemGroup>
