@@ -6,6 +6,7 @@ public class ToStaticManikinMenu : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        StaticManikin.staticManikin.ToActivityMenu();
+        if (other.gameObject.CompareTag("playerSword"))
+            StaticManikin.staticManikin.ToActivityMenu();
     }
 }

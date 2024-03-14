@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: torso and sword
+  m_Mask: 01000000010000000000000000000000000000000100000001000000010000000100000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: MaleSkeleton
+    m_Weight: 1
+  - m_Path: MaleSkeleton/C7
+    m_Weight: 1
+  - m_Path: MaleSkeleton/CLAV
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LANK
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LBHD
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LBSH
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LBWT
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LELB
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LFHD
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LFSH
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LFWT
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LHEL
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LHIP
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LIEL
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LIHAND
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LIWR
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LKNE
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LKNI
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LMT1
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LMT5
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LMWT
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LOHAND
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LOWR
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LSHN
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LTOE
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LUPA
+    m_Weight: 1
+  - m_Path: MaleSkeleton/LWRE
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RANK
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RBHD
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RBSH
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RBWT
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RELB
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RFHD
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RFSH
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RFWT
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RHEL
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RHIP
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RIEL
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RIHAND
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RIWR
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RKNE
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RKNI
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RMT1
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RMT5
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RMWT
+    m_Weight: 1
+  - m_Path: MaleSkeleton/ROHAND
+    m_Weight: 1
+  - m_Path: MaleSkeleton/ROWR
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RSHN
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RTOE
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RUPA
+    m_Weight: 1
+  - m_Path: MaleSkeleton/RWRE
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/LeftUpLeg
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/LeftUpLeg/LeftLeg
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/LeftUpLeg/LeftLeg/LeftFoot
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftForeFoot
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftForeFoot/LeftToeBase
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftForeFoot/LeftToeBase/LeftToeBaseEnd
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/RightUpLeg
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/RightUpLeg/RightLeg
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/RightUpLeg/RightLeg/RightFoot
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/RightUpLeg/RightLeg/RightFoot/RightForeFoot
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/RightUpLeg/RightLeg/RightFoot/RightForeFoot/RightToeBase
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/RightUpLeg/RightLeg/RightFoot/RightForeFoot/RightToeBase/RightToeBaseEnd
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/LeftShoulder
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/LeftShoulder/LeftArm
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/LeftShoulder/LeftArm/LeftForeArm
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandMiddle1
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandThumb1
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/Neck
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/Neck/Neck1
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/Neck/Neck1/Head
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/Neck/Neck1/Head/HeadEnd
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/RightShoulder
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/RightShoulder/RightArm
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/RightShoulder/RightArm/RightForeArm
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/RightShoulder/RightArm/RightForeArm/RightHand
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/RightShoulder/RightArm/RightForeArm/RightHand/RightHandMiddle1
+    m_Weight: 1
+  - m_Path: MaleSkeleton/Solving/Hips/Spine/Spine1/Spine2/Spine3/RightShoulder/RightArm/RightForeArm/RightHand/RightHandThumb1
+    m_Weight: 1
+  - m_Path: MaleSkeleton/STRN
+    m_Weight: 1
+  - m_Path: MaleSkeleton/T10
+    m_Weight: 1
+  - m_Path: ViconMan_003
+    m_Weight: 1

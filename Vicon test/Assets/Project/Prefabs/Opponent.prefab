@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 168891471019252014}
   m_Layer: 0
   m_Name: box collider
-  m_TagString: Untagged
+  m_TagString: sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4884,7 +4884,7 @@ GameObject:
   - component: {fileID: 8935877915442358034}
   - component: {fileID: 3623837586296717816}
   - component: {fileID: 3623837586296717819}
-  - component: {fileID: 3623837586296717817}
+  - component: {fileID: 1198205975284706010}
   m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
@@ -5023,7 +5023,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &3623837586296717817
+--- !u!114 &1198205975284706010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5032,11 +5032,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8935877915442358033}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e63dc74b97e34c418ad18c625889ed4, type: 3}
+  m_Script: {fileID: 11500000, guid: bd0ceeb3c7a95164aa5705cf97c2cab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 3623837586296717819}
-  hitSound: {fileID: 8300000, guid: fa7f92191c7539f45884a1ed3baa015e, type: 3}
+  hitSound: {fileID: 8300000, guid: 4536f79d2afd6694bb7d6f17a557aced, type: 3}
 --- !u!1 &8935877915443981861
 GameObject:
   m_ObjectHideFlags: 0
@@ -6889,7 +6889,7 @@ GameObject:
   - component: {fileID: 167274836214540003}
   m_Layer: 0
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

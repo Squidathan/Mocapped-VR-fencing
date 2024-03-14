@@ -15,7 +15,11 @@ public class SoundOnHit : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        audioSource.PlayOneShot(hitSound);
-        Debug.Log("sound");
+        if (other.gameObject.CompareTag("playerSword"))
+        {
+            audioSource.PlayOneShot(hitSound);
+            GameManager.gameManager.BladeClash();
+        }
+        
     }
 }

@@ -50,7 +50,8 @@ public abstract class Activity : MonoBehaviour
     }
 
 
-    // freezes time and enables passthrough
+    // freezes time
+    
     public void PauseActivity()
     {
         Time.timeScale = 0;

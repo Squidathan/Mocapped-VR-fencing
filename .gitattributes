@@ -49,9 +49,6 @@
 *.mkv filter=lfs diff=lfs merge=lfs -text
 *.aar filter=lfs diff=lfs merge=lfs -text
 *.dylib filter=lfs diff=lfs merge=lfs -text
-*.pdf filter=lfs diff=lfs merge=lfs -text
-*.a filter=lfs diff=lfs merge=lfs -text
-*.exr filter=lfs diff=lfs merge=lfs -text
 *.cubemap filter=lfs diff=lfs merge=lfs -text
 *.jar filter=lfs diff=lfs merge=lfs -text
 *.dat filter=lfs diff=lfs merge=lfs -text
@@ -61,3 +58,4 @@ Assets/**/*.bundle.disabled/Contents/MacOS/* filter=lfs diff=lfs merge=lfs -text
 # Always exclude meta files from LFS even if a folder rule includes them
 *.meta -filter=lfs -diff=lfs -merge=lfs -text
 UnityFiles/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+*ArtifactDB filter=lfs diff=lfs merge=lfs -text

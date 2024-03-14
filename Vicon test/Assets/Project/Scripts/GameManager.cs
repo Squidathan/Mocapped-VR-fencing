@@ -34,6 +34,33 @@ public class GameManager : MonoBehaviour
 
     //Events
 
+    // in game events
+
+    // player hit
+    public event Action OnPlayerHit;
+    public void PlayerHit()
+    {
+        OnPlayerHit?.Invoke();
+    }
+
+
+    // opponent hit
+    public event Action OnOpponentHit;
+    public void OpponentHit()
+    {
+        OnOpponentHit?.Invoke();
+    }
+
+
+    // clash of blades
+    public event Action OnBladeClash;
+    public void BladeClash()
+    {
+        OnBladeClash?.Invoke();
+    }
+
+
+
         // activity selected
         public event Action OnActivity;
 
