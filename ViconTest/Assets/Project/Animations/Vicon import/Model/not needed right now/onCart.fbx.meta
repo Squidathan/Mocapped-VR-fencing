@@ -1,0 +1,1037 @@
+fileFormatVersion: 2
+guid: b1fb6cf93921d4846ab9d1198c47e3bb
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: onCart_mcp
+      takeName: onCart_mcp
+      internalID: -4664373442136069372
+      firstFrame: 1591
+      lastFrame: 2681
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1591
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: jonathan:Labeling:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Labeling:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: onCart(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System
+      parentName: onCart(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2120400
+      parentName: System
+      position: {x: 1.7379147, y: 1.8880323, z: -2.636153}
+      rotation: {x: 0.24418233, y: -0.30431625, z: 0.094270095, w: 0.9159038}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2120597
+      parentName: System
+      position: {x: -2.1310325, y: 1.9783701, z: 2.6441667}
+      rotation: {x: 0.9152367, y: -0.08372643, z: 0.34938166, w: 0.18238449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2120602
+      parentName: System
+      position: {x: -2.2690635, y: 1.9096992, z: -1.0762818}
+      rotation: {x: 0.63626593, y: -0.16620943, z: 0.73396426, w: 0.16981328}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2120611
+      parentName: System
+      position: {x: 2.14838, y: 1.9258419, z: -0.7796127}
+      rotation: {x: 0.15551774, y: -0.65886736, z: 0.13705795, w: 0.7231343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2120617
+      parentName: System
+      position: {x: -2.315955, y: 1.9469886, z: 0.8880071}
+      rotation: {x: 0.739979, y: -0.14269347, z: 0.6463839, w: 0.119404875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2120622
+      parentName: System
+      position: {x: -0.9723602, y: 1.9170203, z: 2.6804094}
+      rotation: {x: 0.9638411, y: -0.012586437, z: 0.065464735, w: 0.25800455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2120625
+      parentName: System
+      position: {x: -1.5282251, y: 1.9311739, z: -3.0268166}
+      rotation: {x: 0.22781801, y: 0.19035473, z: -0.03109502, w: 0.95440936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2120633
+      parentName: System
+      position: {x: 0.058068704, y: 1.8991226, z: -3.0556476}
+      rotation: {x: 0.2368986, y: -0.020905375, z: 0.025812961, w: 0.9709664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2120635
+      parentName: System
+      position: {x: 2.160795, y: 1.9156783, z: 1.2859516}
+      rotation: {x: 0.85143286, y: 0.14624655, z: -0.4642538, w: 0.19530097}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2121155
+      parentName: System
+      position: {x: 0.64819235, y: 1.951955, z: 2.663295}
+      rotation: {x: 0.011714109, y: -0.97021693, z: 0.22128455, w: 0.097852446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vue_2121670
+      parentName: System
+      position: {x: 5.5, y: 0, z: -1.3471115e-15}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vue_2121672
+      parentName: System
+      position: {x: 5, y: 0, z: -1.2246467e-15}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan
+      parentName: onCart(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling
+      parentName: jonathan
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:Position
+      parentName: jonathan:Labeling
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:Hips
+      parentName: jonathan
+      position: {x: 0.0045079547, y: 0.90085614, z: 0}
+      rotation: {x: 0.023138896, y: -0.7397669, z: -0.6710876, w: -0.043022607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:Spine
+      parentName: jonathan:Labeling:Hips
+      position: {x: -0, y: 0, z: 0.20134404}
+      rotation: {x: -0.13179368, y: 0.027311336, z: 0.10891684, w: 0.9848968}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:Head
+      parentName: jonathan:Labeling:Spine
+      position: {x: -0, y: 0, z: 0.42185995}
+      rotation: {x: 0.017679261, y: -0.04900595, z: 0.27017486, w: 0.96140075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:Head_End
+      parentName: jonathan:Labeling:Head
+      position: {x: -0, y: 0, z: 0.12310674}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftShoulder
+      parentName: jonathan:Labeling:Spine
+      position: {x: -0, y: -0.013587813, z: 0.26242423}
+      rotation: {x: -0.083538555, y: 0.6220922, z: -0.19897345, w: 0.75261694}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftArm
+      parentName: jonathan:Labeling:LeftShoulder
+      position: {x: -0, y: 0, z: 0.19747445}
+      rotation: {x: -0.042773552, y: 0.09340263, z: -0.028183348, w: 0.99430984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftForeArm
+      parentName: jonathan:Labeling:LeftArm
+      position: {x: -0, y: 0, z: 0.28211156}
+      rotation: {x: -0.033646606, y: -0.010403118, z: -0.23062554, w: 0.9724051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftHand
+      parentName: jonathan:Labeling:LeftForeArm
+      position: {x: -0, y: 0, z: 0.23151469}
+      rotation: {x: -0.029696034, y: -0.18041345, z: -0.0054495116, w: 0.9831274}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftHandThumb1
+      parentName: jonathan:Labeling:LeftHand
+      position: {x: 0.031105034, y: 0.033297006, z: 0.04477873}
+      rotation: {x: -0.38480818, y: 0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftHandPinky1
+      parentName: jonathan:Labeling:LeftHand
+      position: {x: -0, y: -0.050519593, z: 0.093001984}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftHandIndex1
+      parentName: jonathan:Labeling:LeftHand
+      position: {x: -0, y: 0.024111625, z: 0.11940995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightShoulder
+      parentName: jonathan:Labeling:Spine
+      position: {x: -0, y: -0.013587813, z: 0.26242423}
+      rotation: {x: -0.08461448, y: -0.67074037, z: 0.12714742, w: 0.725797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightArm
+      parentName: jonathan:Labeling:RightShoulder
+      position: {x: -0, y: 0, z: 0.19747445}
+      rotation: {x: -0.08445596, y: -0.06863966, z: -0.4151094, w: 0.9032386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightForeArm
+      parentName: jonathan:Labeling:RightArm
+      position: {x: -0, y: 0, z: 0.28211156}
+      rotation: {x: -0.017985955, y: 0.017477546, z: 0.46187866, w: 0.8865885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightHand
+      parentName: jonathan:Labeling:RightForeArm
+      position: {x: -0, y: 0, z: 0.23151469}
+      rotation: {x: 0.30493757, y: -0.05548777, z: 0.017799834, w: 0.95058787}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightHandThumb1
+      parentName: jonathan:Labeling:RightHand
+      position: {x: -0.031105034, y: 0.033297006, z: 0.04477873}
+      rotation: {x: -0.38480818, y: 0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightHandPinky1
+      parentName: jonathan:Labeling:RightHand
+      position: {x: -0, y: -0.050519593, z: 0.093001984}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightHandIndex1
+      parentName: jonathan:Labeling:RightHand
+      position: {x: -0, y: 0.024111625, z: 0.11940995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftUpLeg
+      parentName: jonathan:Labeling:Hips
+      position: {x: 0.101423234, y: 0, z: 0}
+      rotation: {x: 0.04119006, y: -0.11083532, z: -0.16951485, w: 0.97840875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftLeg
+      parentName: jonathan:Labeling:LeftUpLeg
+      position: {x: -0, y: 0, z: -0.458702}
+      rotation: {x: -0.3176625, y: 0.020434963, z: -0.011601093, w: 0.94791263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftFoot
+      parentName: jonathan:Labeling:LeftLeg
+      position: {x: -0, y: 0, z: -0.44953623}
+      rotation: {x: 0.1531092, y: -0.05248779, z: 0.06152736, w: 0.98489445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftToeBase
+      parentName: jonathan:Labeling:LeftFoot
+      position: {x: -0, y: 0.1590801, z: 0}
+      rotation: {x: 0.11185268, y: -0, z: -0, w: 0.9937248}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:LeftToeEnd
+      parentName: jonathan:Labeling:LeftToeBase
+      position: {x: -0, y: 0.08028701, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightUpLeg
+      parentName: jonathan:Labeling:Hips
+      position: {x: -0.101423234, y: 0, z: 0}
+      rotation: {x: 0.07141778, y: 0.08959079, z: 0.31633815, w: 0.94170225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightLeg
+      parentName: jonathan:Labeling:RightUpLeg
+      position: {x: -0, y: 0, z: -0.458702}
+      rotation: {x: -0.32770813, y: 0.020328904, z: -0.012034638, w: 0.94448364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightFoot
+      parentName: jonathan:Labeling:RightLeg
+      position: {x: -0, y: 0, z: -0.44953623}
+      rotation: {x: 0.12166563, y: 0.03529545, z: -0.094600454, w: 0.98742217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightToeBase
+      parentName: jonathan:Labeling:RightFoot
+      position: {x: -0, y: 0.1590801, z: 0}
+      rotation: {x: 0.17927481, y: -0, z: -0, w: 0.98379904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling:RightToeEnd
+      parentName: jonathan:Labeling:RightToeBase
+      position: {x: -0, y: 0.08028701, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving
+      parentName: jonathan
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:Position
+      parentName: jonathan:Solving
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sabre
+      parentName: onCart(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sabre:Labeling
+      parentName: sabre
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sabre:Labeling:Position
+      parentName: sabre:Labeling
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers
+      parentName: onCart(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 4.3297803e-17, y: 0.7071068, z: 0.7071068, w: -1.2989342e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_1
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_2
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_3
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_4
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_5
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_6
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_7
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_8
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_9
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_10
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_11
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_12
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_13
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_14
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_15
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_16
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_17
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_18
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_19
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_20
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_21
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_22
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_23
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_24
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_25
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_26
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_27
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_28
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_29
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_30
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_31
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_32
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_33
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_34
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_35
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_36
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_37
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_38
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_39
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_40
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_41
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_42
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_43
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_44
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_45
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_46
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_47
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_48
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_49
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_50
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_51
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_52
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_53
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_54
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_55
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_56
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_57
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_58
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_59
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_60
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_61
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_62
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_63
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_64
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_65
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_66
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_67
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_68
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_69
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_70
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_71
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_72
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_73
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_74
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_75
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_76
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_77
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_78
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_79
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_80
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_81
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_82
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_83
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_84
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_85
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_86
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_87
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_88
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_89
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_90
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
