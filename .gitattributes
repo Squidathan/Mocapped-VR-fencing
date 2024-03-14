@@ -58,5 +58,5 @@ Assets/**/*.bundle.disabled/Contents/MacOS/* filter=lfs diff=lfs merge=lfs -text
 # Always exclude meta files from LFS even if a folder rule includes them
 *.meta -filter=lfs -diff=lfs -merge=lfs -text
 ViconTest/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
-'Vicon test'/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+Vicon[[:space:]]test/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
 *ArtifactDB filter=lfs diff=lfs merge=lfs -text
