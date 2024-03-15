@@ -1,0 +1,482 @@
+fileFormatVersion: 2
+guid: 8c03ed2c3092ab54b9ffeda098187a54
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'largeStepBackward_mcp' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jonathan:Solving:Spine3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'jonathan:Solving:Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: largeStepBackward_mcp
+      takeName: largeStepBackward_mcp
+      internalID: -3162287379333331594
+      firstFrame: 2094
+      lastFrame: 2186
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 2094
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: jonathan:Solving:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: largeStepBackwardAdusted(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Labeling
+      parentName: largeStepBackwardAdusted(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving
+      parentName: largeStepBackwardAdusted(Clone)
+      position: {x: -0, y: 1.7211845, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:Hips
+      parentName: largeStepBackwardAdusted(Clone)
+      position: {x: 0, y: 0.8868501, z: 0}
+      rotation: {x: -0.05232011, y: 0.6401509, z: 0.76452935, w: 0.054445848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:Spine
+      parentName: jonathan:Solving:Hips
+      position: {x: -5.5067058e-17, y: 2.7533529e-17, z: 0.10365487}
+      rotation: {x: 0.11954286, y: 0.0046423315, z: 0.027415652, w: 0.9924396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:Spine1
+      parentName: jonathan:Solving:Spine
+      position: {x: -8.526513e-17, y: 5.684342e-17, z: 0.10365487}
+      rotation: {x: -0.011019265, y: 0.008181077, z: 0.02657516, w: 0.9995526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:Spine2
+      parentName: jonathan:Solving:Spine1
+      position: {x: -6.261658e-17, y: 4.1064372e-17, z: 0.10365487}
+      rotation: {x: -0.016387226, y: -0.008299111, z: 0.02729596, w: 0.9994586}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:Spine3
+      parentName: jonathan:Solving:Spine2
+      position: {x: 8.171241e-17, y: -5.928591e-17, z: 0.10365487}
+      rotation: {x: 0.027224163, y: -0.009481846, z: 0.026907977, w: 0.99922216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:Neck
+      parentName: jonathan:Solving:Spine3
+      position: {x: 4.8405723e-17, y: 0.013327054, z: 0.13327053}
+      rotation: {x: -0.12578766, y: 0.02558985, z: 0.119582705, w: 0.98449105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:Neck1
+      parentName: jonathan:Solving:Neck
+      position: {x: 1.9539925e-17, y: -3.907985e-17, z: 0.051609132}
+      rotation: {x: -0.06404646, y: -0.012212323, z: 0.12136557, w: 0.9904642}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:Head
+      parentName: jonathan:Solving:Neck1
+      position: {x: -1.5987211e-17, y: 1.1457501e-16, z: 0.051609132}
+      rotation: {x: 0.15030506, y: -0.07970669, z: 0.1140372, w: 0.9788007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:HeadEnd
+      parentName: jonathan:Solving:Head
+      position: {x: 5.5511154e-20, y: -3.1627476e-17, z: 0.09481527}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:RightShoulder
+      parentName: jonathan:Solving:Spine3
+      position: {x: 2.4646951e-17, y: -1.6764367e-17, z: 0.093289375}
+      rotation: {x: 0.03954362, y: -0.7747302, z: 0.03216826, w: 0.63023376}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:RightArm
+      parentName: jonathan:Solving:RightShoulder
+      position: {x: 8.348877e-17, y: 1.0658141e-17, z: 0.16895743}
+      rotation: {x: -0.11455837, y: 0.052425195, z: -0.40637556, w: 0.904979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:RightForeArm
+      parentName: jonathan:Solving:RightArm
+      position: {x: -1.776357e-18, y: -6.3948843e-17, z: 0.29253304}
+      rotation: {x: -0.025771473, y: 0.020908257, z: 0.33861685, w: 0.9403389}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:RightHand
+      parentName: jonathan:Solving:RightForeArm
+      position: {x: 4.973799e-17, y: 5.684342e-17, z: 0.24057068}
+      rotation: {x: 0.10562875, y: 0.46306154, z: 0.20452875, w: 0.85591155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:RightHandThumb1
+      parentName: jonathan:Solving:RightHand
+      position: {x: -0.032490168, y: 0.028817765, z: 0.03875493}
+      rotation: {x: -0.38480818, y: 0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:RightHandMiddle1
+      parentName: jonathan:Solving:RightHand
+      position: {x: 6.0396136e-17, y: -0.0009937161, z: 0.10334647}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:LeftShoulder
+      parentName: jonathan:Solving:Spine3
+      position: {x: 2.4646951e-17, y: -1.6764367e-17, z: 0.093289375}
+      rotation: {x: -0.028369056, y: 0.7374956, z: 0.025936479, w: 0.67425716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:LeftArm
+      parentName: jonathan:Solving:LeftShoulder
+      position: {x: -4.4408918e-17, y: 6.3948843e-17, z: 0.16895743}
+      rotation: {x: 0.07469044, y: 0.0024905496, z: -0.35709006, w: 0.9310757}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:LeftForeArm
+      parentName: jonathan:Solving:LeftArm
+      position: {x: 4.718448e-18, y: 6.0396136e-17, z: 0.29253304}
+      rotation: {x: -0.014835259, y: -0.006551413, z: -0.13363473, w: 0.990898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:LeftHand
+      parentName: jonathan:Solving:LeftForeArm
+      position: {x: -0, y: 0, z: 0.24057068}
+      rotation: {x: 0.042759415, y: -0.24685287, z: -0.069394656, w: 0.9656188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:LeftHandThumb1
+      parentName: jonathan:Solving:LeftHand
+      position: {x: 0.032490168, y: 0.028817765, z: 0.03875493}
+      rotation: {x: -0.38480818, y: 0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:LeftHandMiddle1
+      parentName: jonathan:Solving:LeftHand
+      position: {x: -1.9095837e-17, y: -0.0009937161, z: 0.10334647}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:RightUpLeg
+      parentName: jonathan:Solving:Hips
+      position: {x: -0.11781054, y: 2.9531933e-17, z: -2.5757175e-17}
+      rotation: {x: 0.19055292, y: 0.033545405, z: 0.3591969, w: 0.9129852}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:RightLeg
+      parentName: jonathan:Solving:RightUpLeg
+      position: {x: 3.5527136e-17, y: -8.7929656e-17, z: -0.48499516}
+      rotation: {x: -0.31866622, y: 0.025515575, z: -0.015366997, w: 0.9473989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:RightFoot
+      parentName: jonathan:Solving:RightLeg
+      position: {x: -0, y: 1.4654944e-17, z: -0.42851818}
+      rotation: {x: 0.19203955, y: -0.015679745, z: -0.10351349, w: 0.9757868}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:RightToeBase
+      parentName: jonathan:Solving:RightFoot
+      position: {x: 7.660539e-18, y: 0.098630324, z: -1.3909012e-17}
+      rotation: {x: 0.049963452, y: -0, z: -0, w: 0.99875104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:RightToeBaseEnd
+      parentName: jonathan:Solving:RightToeBase
+      position: {x: 9.853229e-19, y: 0.069376126, z: 1.2941037e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:LeftUpLeg
+      parentName: jonathan:Solving:Hips
+      position: {x: 0.11781054, y: -2.942091e-17, z: 2.2204459e-17}
+      rotation: {x: 0.19977371, y: -0.028033417, z: -0.27290636, w: 0.94065225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:LeftLeg
+      parentName: jonathan:Solving:LeftUpLeg
+      position: {x: 3.5527136e-17, y: -1.4210855e-17, z: -0.48499516}
+      rotation: {x: -0.3205561, y: -0.023599366, z: 0.014776919, w: 0.94682026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:LeftFoot
+      parentName: jonathan:Solving:LeftLeg
+      position: {x: 1.4210855e-17, y: 1.4210855e-17, z: -0.42851818}
+      rotation: {x: 0.22652958, y: 0.016153537, z: 0.15368785, w: 0.9616671}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:LeftToeBase
+      parentName: jonathan:Solving:LeftFoot
+      position: {x: -2.6117996e-17, y: 0.098630324, z: 4.8849813e-18}
+      rotation: {x: -0.019720439, y: 0, z: -0, w: 0.9998055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan:Solving:LeftToeBaseEnd
+      parentName: jonathan:Solving:LeftToeBase
+      position: {x: 5.5122575e-17, y: 0.08565749, z: -5.7731594e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
