@@ -4,6 +4,9 @@ using UnityEngine;
 
 public abstract class fencer : MonoBehaviour
 {
+    [SerializeField]
+    protected Sabre sabre;
+
     [System.NonSerialized]
     public bool attacking = false;
 
@@ -21,22 +24,4 @@ public abstract class fencer : MonoBehaviour
 
     [System.NonSerialized]
     public bool corpsACorps = false;
-
-
-
-    /*
-    public abstract void Parried();
-
-    public abstract void GotParry();
-
-    public abstract void HitOpponent();
-
-    public abstract void GotHitByOpponent();
-
-    public abstract void ClashOfBlades();
-
-    public abstract void CorpsACorps();
-    */
-
-    
 }

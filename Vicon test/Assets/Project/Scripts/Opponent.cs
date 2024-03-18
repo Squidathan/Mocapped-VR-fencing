@@ -4,22 +4,59 @@ using UnityEngine;
 
 public class Opponent : fencer
 {
+    [SerializeField]
+    float parryImmunityTime;
 
+    
 
-    private void OnTriggerEnter(Collider other)
+    void ClashOfBlades()
     {
-        // if hit by player signal to gameManager
-        if (other.gameObject.CompareTag("playerSword"))
+        sabre.audioSource.PlayOneShot(sabre.parrySound);
+        if (attacking == true) // get parried until end of animation
         {
-            GameManager.gameManager.OpponentHit();
+            parried = true;
+        }
+        else // successful parry
+        {
+            StartCoroutine(parriedImmunity());
         }
     }
+
+    
 
     void SetAttacking(bool attack) // call in animation event for when an attack is happening
     {
         attacking = attack;
         if (attacking == false && parried == true)
+        {
             parried = false;
+        }
     }
 
+    // signal event if I get hit by sword or human
+    private void OnTriggerEnter(Collider other)
+    {
+        // if hit by player signal to gameManager
+        if (other.CompareTag("playerSword") && !gotParry)
+        {
+            
+            GameManager.gameManager.OpponentHit();
+        }
+        else if (other.CompareTag("Player") && !gotParry)
+        {
+            GameManager.gameManager.CorpACorp();
+        }
+    }
+
+
+
+
+
+    // helper functions
+    IEnumerator parriedImmunity()
+    {
+        gotParry = true;
+        yield return new WaitForSeconds(parryImmunityTime);
+        gotParry = false;
+    }
 }

@@ -32,6 +32,12 @@ public class GameManager : MonoBehaviour
 
 
 
+
+
+
+
+
+
     //Events
 
     // in game events
@@ -59,32 +65,52 @@ public class GameManager : MonoBehaviour
         OnBladeClash?.Invoke();
     }
 
-
-
-        // activity selected
-        public event Action OnActivity;
-
-
-        // select Static manikin activity
-        public event Action OnStaticManikin;
-        public void StaticManikin()
-        {
-            state = gameMode.StaticManikin;
-            OnStaticManikin?.Invoke();
-            OnActivity?.Invoke();
-
-        }
+    // Corp-a-corp
+    public event Action OnCorpACorp;
+    public void CorpACorp()
+    {
+        OnCorpACorp?.Invoke();
+    }
 
 
 
-        // select to go to menu
-        public event Action onMenu;
-        public void Menu()
-        {
-            state = gameMode.Menu;
-            onMenu?.Invoke();
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // activity selected
+    public event Action OnActivity;
+
+
+    // select Static manikin activity
+    public event Action OnStaticManikin;
+    public void StaticManikin()
+    {
+        state = gameMode.StaticManikin;
+        OnStaticManikin?.Invoke();
+        OnActivity?.Invoke();
+
+    }
+
+
+
+    // select to go to menu
+    public event Action onMenu;
+    public void Menu()
+    {
+        state = gameMode.Menu;
+        onMenu?.Invoke();
         
-        }
+    }
 
 
 }

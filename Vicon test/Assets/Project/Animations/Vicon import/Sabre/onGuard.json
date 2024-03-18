@@ -1,0 +1,22 @@
+{
+    "SMPTE_Start_Frame": [
+        {
+            "Frames": 79,
+            "Hours": 0,
+            "Minutes": 0,
+            "Seconds": 11
+        }
+    ],
+    "VideoCameras": [
+        {
+            "Vue_2121670": {
+                "StartOffset": 0
+            }
+        },
+        {
+            "Vue_2121672": {
+                "StartOffset": 0
+            }
+        }
+    ]
+}

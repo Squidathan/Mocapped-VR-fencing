@@ -18,13 +18,13 @@ public class Box : MonoBehaviour
 
     // fencers
     [SerializeField]
-    fencer fencerOne;
+    fencer player;
     [SerializeField]
-    fencer fencerTwo;
+    fencer opponent;
 
     // states
-    bool fencerOneLightOn;
-    bool fencerTwoLightOn;
+    bool playerLightOn;
+    bool opponentLightOn;
     bool timedOut;
 
 
@@ -32,7 +32,6 @@ public class Box : MonoBehaviour
     {
         // subscribe to events
         GameManager.gameManager.OnOpponentHit += OpponentHit;
-        GameManager.gameManager.OnBladeClash += BladeClash;
         GameManager.gameManager.OnPlayerHit += PlayerHit;
     }
 
@@ -40,30 +39,51 @@ public class Box : MonoBehaviour
     {
         // unsubscribe from events
         GameManager.gameManager.OnOpponentHit -= OpponentHit;
-        GameManager.gameManager.OnBladeClash -= BladeClash;
         GameManager.gameManager.OnPlayerHit -= PlayerHit;
     }
 
+
     private void OpponentHit()
     {
-
+        if (timedOut == false)
+        {
+            playerLightOn = true;
+            // turn light on and play sound
+            StartCoroutine(FencerHit(player, opponent));
+        }
     }
 
-    private void BladeClash()
-    {
-
-    }
 
     private void PlayerHit()
     {
+        if (timedOut == false)
+        {
+            opponentLightOn = true;
+            // turn light on and play sound
+            StartCoroutine(FencerHit(opponent, player));
+        }
 
     }
 
 
-    IEnumerator FencerHit(fencer fencer)
+    IEnumerator FencerHit(fencer hitting, fencer gotHit)
     {
-        fencer.hit = true;
+        if (!playerLightOn || !opponentLightOn)
+        {
+            StartCoroutine(TimeOut());
+        }
+        hitting.hit = true;
+        gotHit.gotHit = true;
         yield return new WaitForSeconds(lightOffTime);
-        fencer.hit = false;
+        hitting.hit = false;
+        gotHit.gotHit = false;
+        timedOut = false;
+        // stop sound and lights
+    }
+
+    IEnumerator TimeOut()
+    {
+        yield return new WaitForSeconds(timedOutTime);
+        timedOut = true;
     }
 }
