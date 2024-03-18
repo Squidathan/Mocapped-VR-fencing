@@ -11,15 +11,21 @@ public class SoundOnHit : MonoBehaviour
     [SerializeField]
     AudioClip hitSound;
 
-    
+    [SerializeField]
+    AudioClip playerHitSound;
+
+    [SerializeField]
+    Opponent opponent;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("playerSword"))
+        if (other.CompareTag("playerSword"))
         {
-            audioSource.PlayOneShot(hitSound);
             GameManager.gameManager.BladeClash();
         }
-        
+        if (other.CompareTag("Player"))
+        {
+            GameManager.gameManager.PlayerHit();
+        }
     }
 }

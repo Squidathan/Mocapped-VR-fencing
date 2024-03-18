@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class playerHit : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("sword"))
         {
@@ -12,5 +12,5 @@ public class playerHit : MonoBehaviour
             GameManager.gameManager.PlayerHit();
         }
 
-    }
+    }*/
 }

@@ -19,12 +19,11 @@ ModelImporter:
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: "\nClip 'mediumStepBackward_mcp' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'jonathan:Solving:Spine3'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'jonathan:Solving:Neck1'
+      warnings that might lower retargeting quality:\n\t'jonathan:Solving:Spine3'
       is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
+    animationRetargetingWarnings: "\nRetargeting quality report for clip 'mediumStepBackward_mcp':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n"
+    animationDoRetargetingWarnings: 1
     importAnimatedCustomProperties: 0
     importConstraints: 0
     animationCompression: 3
@@ -190,7 +189,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathan:Solving:Head
+    - boneName: jonathan:Solving:Neck1
       humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -286,19 +285,32 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
+    - boneName: jonathan:Solving:Head
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
     skeleton:
     - name: mediumStepBackward(Clone)
       parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathan
+      parentName: mediumStepBackward(Clone)
       position: {x: -0, y: 0, z: 1}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: jonathan:Labeling
-      parentName: mediumStepBackward(Clone)
+      parentName: jonathan
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: jonathan:Labeling:Hips
-      parentName: mediumStepBackward(Clone)
+      parentName: jonathan
       position: {x: 0.05361905, y: 0.774519, z: -0.51648724}
       rotation: {x: -0.5898886, y: -0.38096514, z: -0.3441617, w: 0.6232574}
       scale: {x: 1, y: 1, z: 1}
@@ -438,12 +450,12 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: jonathan:Solving
-      parentName: mediumStepBackward(Clone)
+      parentName: jonathan
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: jonathan:Solving:Hips
-      parentName: mediumStepBackward(Clone)
+      parentName: jonathan
       position: {x: 0.0000000037252903, y: 0.89349246, z: -1}
       rotation: {x: 0.031833738, y: -0.6319123, z: -0.7718953, w: -0.062057503}
       scale: {x: 1, y: 1, z: 1}
@@ -606,8 +618,8 @@ ModelImporter:
     feetSpacing: 0
     globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
