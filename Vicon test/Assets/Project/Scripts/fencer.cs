@@ -4,8 +4,8 @@ using UnityEngine;
 
 public abstract class fencer : MonoBehaviour
 {
-    [SerializeField]
-    protected Sabre sabre;
+    [System.NonSerialized]
+    public sabre sabre;
 
     [System.NonSerialized]
     public bool attacking = false;

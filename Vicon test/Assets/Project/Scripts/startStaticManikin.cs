@@ -4,8 +4,44 @@ using UnityEngine;
 
 public class startStaticManikin : MonoBehaviour
 {
+    bool startActivity = true;
+    [SerializeField]
+    AudioSource countdownAudioSource;
+
     private void OnTriggerEnter(Collider other)
     {
-        StaticManikin.staticManikin.BeginActivity();
+        
+        if (other.CompareTag("Player"))
+        {
+            startActivity = true;
+            StartCoroutine(CountdownToActivity());
+        }
+        
+    }
+
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            startActivity = false;
+            countdownAudioSource.Stop();
+            StopCoroutine(CountdownToActivity());
+        }
+        
+        
+    }
+
+
+    IEnumerator CountdownToActivity()
+    {
+        countdownAudioSource.Play();
+        yield return new WaitForSeconds(4);
+        //Debug.Log("trying to start activity");
+        if (startActivity == true)
+        {
+            Debug.Log("start activity");
+            StaticManikin.staticManikin.BeginActivity();
+        }
     }
 }

@@ -5,16 +5,55 @@ using System;
 
 public class StaticManikin : Activity
 {
+    // Settings
+    public enum ManikinAnimation
+    {
+        onGuard,
+        hitChest,
+        hitHead,
+        hitFlank,
+        lungeChest,
+        lungeHead,
+        lungeFlank
+    }
+    public ManikinAnimation manikinAnimation = ManikinAnimation.onGuard;
+
+    public override void ResetSettings()
+    {
+        manikinAnimation = ManikinAnimation.onGuard;
+    }
+
+
+    // what changes during activity
+
+    // variables that need resetting after activity here
+
+
+
+    // called when exiting activity
+    public override void ResetActivity()
+    {
+        
+    }
+
+    
+
+
+
+
+
+
+
+    // menu navigation
+
+
+
     //Have only one StaticManikin instance available everywhere
     public static StaticManikin staticManikin;
     private void Awake()
     {
         staticManikin = this;
     }
-
-
-    
-   
 
 
     // Event subscriptions
@@ -37,17 +76,6 @@ public class StaticManikin : Activity
     void EnableStaticManikin()
     {
         settingsMenu.SetActive(true);
-    }
-
-
-    public override void ResetActivity()
-    {
-        
-    }
-
-    public override void ResetSettings()
-    {
-        
     }
 
 }

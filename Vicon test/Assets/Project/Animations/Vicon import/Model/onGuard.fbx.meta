@@ -20,8 +20,10 @@ ModelImporter:
     animationImportErrors: 
     animationImportWarnings: "\nClip 'onGuard_mcp' has import animation warnings
       that might lower retargeting quality:\n\t'jonathan:Solving:Spine3' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n"
-    animationRetargetingWarnings: 
+      humanoid transforms and has rotation animation that will be discarded.\n\t'jonathan:Solving:Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: "\nRetargeting quality report for clip 'onGuard_mcp':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n"
     animationDoRetargetingWarnings: 1
     importAnimatedCustomProperties: 0
     importConstraints: 0
@@ -45,8 +47,8 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
@@ -188,7 +190,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathan:Solving:Neck1
+    - boneName: jonathan:Solving:Head
       humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -284,8 +286,8 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathan:Solving:Head
-      humanName: RightEye
+    - boneName: jonathan:Solving:RightHandMiddle1
+      humanName: Right Middle Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -300,8 +302,16 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathan:Solving:RightHandMiddle1
-      humanName: Right Middle Proximal
+    - boneName: jonathan:Solving:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jonathan:Solving:LeftHandThumb1
+      humanName: Left Thumb Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -767,7 +777,7 @@ ModelImporter:
     - name: jonathan:Solving:RightUpLeg
       parentName: jonathan:Solving:Hips
       position: {x: -0.11781054, y: 0, z: 0}
-      rotation: {x: 0.21111324, y: 0.07336371, z: 0.35784823, w: 0.9066386}
+      rotation: {x: 0.21111326, y: 0.073363714, z: 0.35784826, w: 0.9066387}
       scale: {x: 1, y: 1, z: 1}
     - name: jonathan:Solving:RightLeg
       parentName: jonathan:Solving:RightUpLeg
@@ -812,7 +822,7 @@ ModelImporter:
     - name: jonathan:Solving:LeftShoulder
       parentName: jonathan:Solving:Spine3
       position: {x: -0, y: 0, z: 0.093289375}
-      rotation: {x: -0.02766137, y: 0.7437867, z: 0.02481993, w: 0.6673832}
+      rotation: {x: -0.027661366, y: 0.7437867, z: 0.024819925, w: 0.6673832}
       scale: {x: 1, y: 1, z: 1}
     - name: jonathan:Solving:LeftArm
       parentName: jonathan:Solving:LeftShoulder
@@ -822,12 +832,12 @@ ModelImporter:
     - name: jonathan:Solving:LeftForeArm
       parentName: jonathan:Solving:LeftArm
       position: {x: -0, y: 0, z: 0.29253304}
-      rotation: {x: -0.027076127, y: -0.009813734, z: -0.18827018, w: 0.981695}
+      rotation: {x: -0.027076123, y: -0.009813733, z: -0.18827015, w: 0.9816949}
       scale: {x: 1, y: 1, z: 1}
     - name: jonathan:Solving:LeftHand
       parentName: jonathan:Solving:LeftForeArm
       position: {x: -0, y: 0, z: 0.24057068}
-      rotation: {x: 0.029551508, y: -0.1673438, z: -0.11636568, w: 0.9785611}
+      rotation: {x: 0.008608783, y: -0.15750386, z: -0.11336559, w: 0.98095196}
       scale: {x: 1, y: 1, z: 1}
     - name: jonathan:Solving:LeftHandMiddle1
       parentName: jonathan:Solving:LeftHand
@@ -842,7 +852,7 @@ ModelImporter:
     - name: jonathan:Solving:Neck
       parentName: jonathan:Solving:Spine3
       position: {x: -0, y: 0.013327054, z: 0.13327053}
-      rotation: {x: -0.11084168, y: 0.0009958384, z: 0.133011, w: 0.98489654}
+      rotation: {x: -0.110841684, y: 0.0009958384, z: 0.13301101, w: 0.98489654}
       scale: {x: 1, y: 1, z: 1}
     - name: jonathan:Solving:Neck1
       parentName: jonathan:Solving:Neck
@@ -862,7 +872,7 @@ ModelImporter:
     - name: jonathan:Solving:RightShoulder
       parentName: jonathan:Solving:Spine3
       position: {x: -0, y: 0, z: 0.093289375}
-      rotation: {x: 0.04141666, y: -0.7916405, z: 0.031848248, w: 0.60874933}
+      rotation: {x: 0.041416656, y: -0.7916405, z: 0.031848244, w: 0.60874933}
       scale: {x: 1, y: 1, z: 1}
     - name: jonathan:Solving:RightArm
       parentName: jonathan:Solving:RightShoulder
@@ -877,7 +887,7 @@ ModelImporter:
     - name: jonathan:Solving:RightHand
       parentName: jonathan:Solving:RightForeArm
       position: {x: -0, y: 0, z: 0.24057068}
-      rotation: {x: 0.07181415, y: 0.09810428, z: -0.26253867, w: 0.9572313}
+      rotation: {x: 0.071814224, y: 0.09810421, z: -0.26253873, w: 0.95723134}
       scale: {x: 1, y: 1, z: 1}
     - name: jonathan:Solving:RightHandMiddle1
       parentName: jonathan:Solving:RightHand
@@ -1522,7 +1532,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: 
+    rootMotionBoneName: jonathan:Solving:Hips
     hasTranslationDoF: 1
     hasExtraRoot: 1
     skeletonHasParents: 1

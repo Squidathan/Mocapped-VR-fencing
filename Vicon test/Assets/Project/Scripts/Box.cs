@@ -27,12 +27,23 @@ public class Box : MonoBehaviour
     bool opponentLightOn;
     bool timedOut;
 
+    // lights
+    [SerializeField]
+    GameObject playerLight;
+    [SerializeField]
+    GameObject opponentLight;
+
+    Material playerLightMaterial;
+    Material opponentLightMaterial;
 
     private void Start()
     {
         // subscribe to events
         GameManager.gameManager.OnOpponentHit += OpponentHit;
         GameManager.gameManager.OnPlayerHit += PlayerHit;
+
+        playerLightMaterial = playerLight.GetComponent<Renderer>().material;
+        opponentLightMaterial = opponentLight.GetComponent<Renderer>().material;
     }
 
     private void OnDestroy()
@@ -48,8 +59,11 @@ public class Box : MonoBehaviour
         if (timedOut == false)
         {
             playerLightOn = true;
+
             // turn light on and play sound
+            playerLightMaterial.EnableKeyword("_EMISSION");
             StartCoroutine(FencerHit(player, opponent));
+            audioSource.Play();
         }
     }
 
@@ -59,8 +73,11 @@ public class Box : MonoBehaviour
         if (timedOut == false)
         {
             opponentLightOn = true;
+
             // turn light on and play sound
+            opponentLightMaterial.EnableKeyword("_EMISSION");
             StartCoroutine(FencerHit(opponent, player));
+            audioSource.Play();
         }
 
     }
@@ -78,7 +95,11 @@ public class Box : MonoBehaviour
         hitting.hit = false;
         gotHit.gotHit = false;
         timedOut = false;
+
         // stop sound and lights
+        opponentLightMaterial.DisableKeyword("_EMISSION");
+        playerLightMaterial.DisableKeyword("_EMISSION");
+        audioSource.Stop();
     }
 
     IEnumerator TimeOut()

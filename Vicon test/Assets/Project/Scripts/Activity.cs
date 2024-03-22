@@ -11,8 +11,6 @@ public abstract class Activity : MonoBehaviour
     [SerializeField]
     protected GameObject settingsMenu;
 
-    [SerializeField]
-    protected bool countInNeeded;
 
 
     public enum ActivityState
