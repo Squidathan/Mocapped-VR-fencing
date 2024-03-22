@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17524219, g: 0.21924677, b: 0.30155584, a: 1}
+  m_IndirectSpecularColor: {r: 0.17524262, g: 0.21924742, b: 0.3015568, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9450,7 +9450,7 @@ Transform:
   - {fileID: 5641014217629579699}
   m_Father: {fileID: 5641014218493103839}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -68.89762, y: -57.406395, z: 49.135128}
+  m_LocalEulerAnglesHint: {x: -0.054920048, y: 8.300777, z: -1.0543256}
 --- !u!1 &1717608626012626526
 GameObject:
   m_ObjectHideFlags: 0
