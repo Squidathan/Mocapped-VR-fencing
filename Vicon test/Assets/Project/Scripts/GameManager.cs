@@ -17,9 +17,8 @@ public class GameManager : MonoBehaviour
     {
         Menu,
         StaticManikin,
-        PracticeAction,
-        TimeTrial,
-        KeepDistance
+        KeepDistance,
+        Opponent
     }
     public static gameMode state;
 
@@ -102,6 +101,16 @@ public class GameManager : MonoBehaviour
     }
 
 
+
+
+    // select Static manikin activity
+    public event Action OnKeepDistance;
+    public void KeepDistance()
+    {
+        state = gameMode.KeepDistance;
+        OnKeepDistance?.Invoke();
+        OnActivity?.Invoke();
+    }
 
     // select to go to menu
     public event Action onMenu;

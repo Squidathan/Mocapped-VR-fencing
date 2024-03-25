@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class KeepDistance : Activity
 {
-    //Have only one StaticManikin instance available everywhere
-    public static KeepDistance keepDistance;
-    private void Awake()
+    public enum StepAnim
     {
-        keepDistance = this;
+        mediumStepForward,
+        mediumStepBackward
     }
 
 
@@ -21,5 +20,40 @@ public class KeepDistance : Activity
     public override void ResetActivity()
     {
         
+    }
+
+
+
+
+    // menu navigation
+
+    //Have only one StaticManikin instance available everywhere
+    public static KeepDistance keepDistance;
+    private void Awake()
+    {
+        keepDistance = this;
+    }
+
+
+    // Event subscriptions
+    void Start()
+    {
+        // Enabling and disabling the objects if changing state
+        GameManager.gameManager.OnKeepDistance += EnableKeepDistance;
+
+        // disable the activity if main menu selected
+        GameManager.gameManager.onMenu += BackToMainMenu;
+    }
+    private void OnDestroy()
+    {
+        // Unsubscriptions
+        GameManager.gameManager.OnKeepDistance -= EnableKeepDistance;
+        GameManager.gameManager.onMenu -= BackToMainMenu;
+    }
+    
+    // Called when activity selected
+    void EnableKeepDistance()
+    {
+        settingsMenu.SetActive(true);
     }
 }

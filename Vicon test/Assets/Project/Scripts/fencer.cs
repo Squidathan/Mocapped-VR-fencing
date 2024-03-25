@@ -4,7 +4,6 @@ using UnityEngine;
 
 public abstract class fencer : MonoBehaviour
 {
-    [System.NonSerialized]
     public sabre sabre;
 
     [System.NonSerialized]

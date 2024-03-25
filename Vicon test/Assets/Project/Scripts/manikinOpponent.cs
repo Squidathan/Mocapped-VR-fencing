@@ -10,13 +10,7 @@ public class manikinOpponent : Opponent
     [SerializeField]
     float loopAnimDelay = 5;
 
-    private void OnEnable()
-    {
-        //StartCoroutine(TriggerAnim());
-    }
-
     
-
     IEnumerator TriggerAnim()
     {
         if (manikinActivityManager.manikinAnimation != StaticManikin.ManikinAnimation.onGuard)
@@ -33,7 +27,6 @@ public class manikinOpponent : Opponent
     public override void OnOnGuard()
     {
         base.OnOnGuard();
-        //Debug.Log("stuff");
         StartCoroutine(TriggerAnim());
     }
 }

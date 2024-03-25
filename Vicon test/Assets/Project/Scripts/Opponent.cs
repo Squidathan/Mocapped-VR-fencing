@@ -15,7 +15,7 @@ public class Opponent : fencer
     [NonSerialized]
     public opponentModel model;
 
-    
+    [NonSerialized]
     public OpponentSabre opponentSabre;
 
 

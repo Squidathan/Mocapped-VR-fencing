@@ -9,8 +9,6 @@ public class staticManikinSelect : MonoBehaviour
         if (other.tag == "playerSword")
         {
             GameManager.gameManager.StaticManikin();
-            //Debug.Log("recognised");
         }
-        //Debug.Log("hit");
     }
 }
