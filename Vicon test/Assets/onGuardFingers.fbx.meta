@@ -107,7 +107,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human:
-    - boneName: jonathanFingers:Solving:Hips
+    - boneName: jonathanFingers:Retargeting:B_hips
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -115,7 +115,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:LeftUpLeg
+    - boneName: jonathanFingers:Retargeting:B_thigh_L
       humanName: LeftUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -123,7 +123,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightUpLeg
+    - boneName: jonathanFingers:Retargeting:B_thigh_R
       humanName: RightUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -131,7 +131,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:LeftLeg
+    - boneName: jonathanFingers:Retargeting:B_shin_L
       humanName: LeftLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -139,7 +139,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightLeg
+    - boneName: jonathanFingers:Retargeting:B_shin_R
       humanName: RightLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -147,7 +147,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:LeftFoot
+    - boneName: jonathanFingers:Retargeting:B_foot_L
       humanName: LeftFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -155,7 +155,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightFoot
+    - boneName: jonathanFingers:Retargeting:B_foot_R
       humanName: RightFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -163,7 +163,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:Spine
+    - boneName: jonathanFingers:Retargeting:B_spine
       humanName: Spine
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -171,7 +171,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:Spine1
+    - boneName: jonathanFingers:Retargeting:B_chest
       humanName: Chest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -179,7 +179,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:Neck
+    - boneName: jonathanFingers:Retargeting:B_neck
       humanName: Neck
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -187,7 +187,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:Head
+    - boneName: jonathanFingers:Retargeting:B_head
       humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -195,7 +195,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:LeftShoulder
+    - boneName: jonathanFingers:Retargeting:B_shoulder_L
       humanName: LeftShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -203,7 +203,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightShoulder
+    - boneName: jonathanFingers:Retargeting:B_shoulder_R
       humanName: RightShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -211,7 +211,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:LeftArm
+    - boneName: jonathanFingers:Retargeting:B_upper_arm_L
       humanName: LeftUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -219,7 +219,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightArm
+    - boneName: jonathanFingers:Retargeting:B_upper_arm_R
       humanName: RightUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -227,7 +227,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:LeftForeArm
+    - boneName: jonathanFingers:Retargeting:B_forearm_L
       humanName: LeftLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -235,7 +235,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightForeArm
+    - boneName: jonathanFingers:Retargeting:B_forearm_R
       humanName: RightLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -243,7 +243,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:LeftHand
+    - boneName: jonathanFingers:Retargeting:B_hand_L
       humanName: LeftHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -251,7 +251,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHand
+    - boneName: jonathanFingers:Retargeting:B_hand_R
       humanName: RightHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -259,7 +259,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:LeftToeBase
+    - boneName: jonathanFingers:Retargeting:B_toe_L
       humanName: LeftToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -267,7 +267,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightToeBase
+    - boneName: jonathanFingers:Retargeting:B_toe_R
       humanName: RightToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -371,7 +371,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandIndex
+    - boneName: jonathanFingers:Retargeting:B_f_index_01_R
       humanName: Right Index Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -379,7 +379,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandIndex1
+    - boneName: jonathanFingers:Retargeting:B_f_index_02_R
       humanName: Right Index Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -387,7 +387,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandIndex2
+    - boneName: jonathanFingers:Retargeting:B_f_index_03_R
       humanName: Right Index Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -395,7 +395,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandMiddle1
+    - boneName: jonathanFingers:Retargeting:B_f_middle_01_R
       humanName: Right Middle Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -403,7 +403,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandMiddle2
+    - boneName: jonathanFingers:Retargeting:B_f_middle_02_R
       humanName: Right Middle Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -411,7 +411,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandMiddle3
+    - boneName: jonathanFingers:Retargeting:B_f_middle_03_R
       humanName: Right Middle Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -419,7 +419,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandRing
+    - boneName: jonathanFingers:Retargeting:B_f_ring_01_R
       humanName: Right Ring Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -427,7 +427,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandRing1
+    - boneName: jonathanFingers:Retargeting:B_f_ring_02_R
       humanName: Right Ring Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -435,7 +435,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandRing2
+    - boneName: jonathanFingers:Retargeting:B_f_ring_03_R
       humanName: Right Ring Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -443,7 +443,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandPinky
+    - boneName: jonathanFingers:Retargeting:B_f_pinky_01_R
       humanName: Right Little Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -451,7 +451,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandPinky1
+    - boneName: jonathanFingers:Retargeting:B_f_pinky_02_R
       humanName: Right Little Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -459,7 +459,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandPinky2
+    - boneName: jonathanFingers:Retargeting:B_f_pinky_03_R
       humanName: Right Little Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -467,7 +467,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:Spine2
+    - boneName: jonathanFingers:Retargeting:B_upperChest
       humanName: UpperChest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -475,7 +475,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandThumb1
+    - boneName: jonathanFingers:Retargeting:B_thumb_01_R
       humanName: Right Thumb Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -483,7 +483,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandThumb2
+    - boneName: jonathanFingers:Retargeting:B_thumb_02_R
       humanName: Right Thumb Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -491,7 +491,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jonathanFingers:Solving:RightHandThumb3
+    - boneName: jonathanFingers:Retargeting:B_thumb_03_R
       humanName: Right Thumb Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -529,370 +529,310 @@ ModelImporter:
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Labeling
+    - name: jonathanFingers:Retargeting
       parentName: onGuardFingers(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving
+    - name: jonathanFingers:Retargeting:B_hips
       parentName: onGuardFingers(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:Hips
-      parentName: onGuardFingers(Clone)
-      position: {x: 0.0000000037252903, y: 0.89225996, z: 0}
-      rotation: {x: 0.024524454, y: -0.6680319, z: -0.7396193, w: -0.078072496}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftUpLeg
-      parentName: jonathanFingers:Solving:Hips
-      position: {x: 0.110082224, y: 0, z: 0}
-      rotation: {x: 0.1539539, y: -0.016978756, z: -0.167095, w: 0.97369874}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftLeg
-      parentName: jonathanFingers:Solving:LeftUpLeg
-      position: {x: -0, y: 0, z: -0.48238325}
-      rotation: {x: -0.31951782, y: -0.0070942566, z: 0.0063441657, w: 0.94753253}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftFoot
-      parentName: jonathanFingers:Solving:LeftLeg
-      position: {x: -0, y: 0, z: -0.40175432}
-      rotation: {x: 0.036518928, y: -0.06431243, z: 0.059338655, w: 0.9954945}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftToeBase
-      parentName: jonathanFingers:Solving:LeftFoot
-      position: {x: -0, y: 0.096060865, z: 0}
-      rotation: {x: 0.22971168, y: -0, z: -0, w: 0.97325873}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftToeBaseEnd
-      parentName: jonathanFingers:Solving:LeftToeBase
-      position: {x: -0, y: 0.06666488, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightUpLeg
-      parentName: jonathanFingers:Solving:Hips
-      position: {x: -0.110082224, y: 0, z: 0}
-      rotation: {x: 0.15778632, y: 0.09602961, z: 0.42093274, w: 0.8880864}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightLeg
-      parentName: jonathanFingers:Solving:RightUpLeg
-      position: {x: -0, y: 0, z: -0.48238325}
-      rotation: {x: -0.3040559, y: 0.025488976, z: -0.02110274, w: 0.95207936}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightFoot
-      parentName: jonathanFingers:Solving:RightLeg
-      position: {x: -0, y: 0, z: -0.40175432}
-      rotation: {x: 0.046877846, y: 0.0005584806, z: -0.17715183, w: 0.9830663}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightToeBase
-      parentName: jonathanFingers:Solving:RightFoot
-      position: {x: -0, y: 0.096060865, z: 0}
-      rotation: {x: 0.17009827, y: -0, z: -0, w: 0.98542714}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightToeBaseEnd
-      parentName: jonathanFingers:Solving:RightToeBase
-      position: {x: -0, y: 0.066836566, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:Spine
-      parentName: jonathanFingers:Solving:Hips
-      position: {x: -0, y: 0, z: 0.10437802}
-      rotation: {x: 0.09643693, y: 0.036521506, z: 0.037891176, w: 0.99394685}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:Spine1
-      parentName: jonathanFingers:Solving:Spine
-      position: {x: -0, y: 0, z: 0.10437802}
-      rotation: {x: -0.03412426, y: 0.041154858, z: 0.0328, w: 0.9980311}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:Spine2
-      parentName: jonathanFingers:Solving:Spine1
-      position: {x: -0, y: 0, z: 0.10437802}
-      rotation: {x: -0.021814218, y: -0.026872704, z: 0.035772357, w: 0.9987604}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftShoulder
-      parentName: jonathanFingers:Solving:Spine2
-      position: {x: -0, y: -1.6009902e-18, z: 0.09394022}
-      rotation: {x: -0.025338233, y: 0.7502735, z: 0.022298478, w: 0.6602654}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftArm
-      parentName: jonathanFingers:Solving:LeftShoulder
-      position: {x: -0, y: 0, z: 0.17013618}
-      rotation: {x: 0.085505135, y: -0.04369268, z: -0.25249633, w: 0.9628216}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftForeArm
-      parentName: jonathanFingers:Solving:LeftArm
-      position: {x: -0, y: 0, z: 0.27268648}
-      rotation: {x: -0.028384103, y: -0.01241115, z: -0.27644107, w: 0.9605315}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHand
-      parentName: jonathanFingers:Solving:LeftForeArm
-      position: {x: -0, y: 0, z: 0.25966647}
-      rotation: {x: -0.020592218, y: -0.21187627, z: -0.003147366, w: 0.97707444}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandIndex
-      parentName: jonathanFingers:Solving:LeftHand
-      position: {x: 0.0026465624, y: 0.007572122, z: 0.0026465624}
-      rotation: {x: -0.081450276, y: 0.009326931, z: 0.017737279, w: 0.99647593}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandIndex1
-      parentName: jonathanFingers:Solving:LeftHandIndex
-      position: {x: -0, y: 0, z: 0.10186016}
-      rotation: {x: 0.0011022983, y: -0.038152725, z: -0.02773409, w: 0.9988864}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandIndex2
-      parentName: jonathanFingers:Solving:LeftHandIndex1
-      position: {x: -0, y: 0, z: 0.053143833}
-      rotation: {x: -0.0000009607754, y: 0.026214749, z: -0.00000033099414, w: 0.9996564}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandIndex3
-      parentName: jonathanFingers:Solving:LeftHandIndex2
-      position: {x: -0, y: 0, z: 0.03185487}
-      rotation: {x: 0.0000027268181, y: -0.19409615, z: 0.0000014828123, w: 0.98098254}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandIndex4
-      parentName: jonathanFingers:Solving:LeftHandIndex3
-      position: {x: -0, y: 0, z: 0.019903328}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandThumb1
-      parentName: jonathanFingers:Solving:LeftHandIndex
-      position: {x: 0.007939687, y: 0.007572122, z: 0.0026465624}
-      rotation: {x: 0.07640563, y: -0.29359603, z: -0.5550209, w: 0.7745421}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandThumb2
-      parentName: jonathanFingers:Solving:LeftHandThumb1
-      position: {x: -0, y: 0, z: 0.06830584}
-      rotation: {x: 0.03350077, y: 0.02214007, z: -0.0022190653, w: 0.99919105}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandThumb3
-      parentName: jonathanFingers:Solving:LeftHandThumb2
-      position: {x: -0, y: 0, z: 0.0435646}
-      rotation: {x: -0.0000009909268, y: 0.038614813, z: 0.00000020023425, w: 0.9992542}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandThumb4
-      parentName: jonathanFingers:Solving:LeftHandThumb3
-      position: {x: -0, y: 0, z: 0.027263284}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandMiddle1
-      parentName: jonathanFingers:Solving:LeftHand
-      position: {x: -0, y: 0, z: 0.104162045}
-      rotation: {x: 0.013941541, y: 0.07070794, z: -0.017433675, w: 0.99724734}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandMiddle2
-      parentName: jonathanFingers:Solving:LeftHandMiddle1
-      position: {x: -0, y: 0, z: 0.055254802}
-      rotation: {x: -0.000002241693, y: 0.027850084, z: -0.0000004529719, w: 0.9996121}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandMiddle3
-      parentName: jonathanFingers:Solving:LeftHandMiddle2
-      position: {x: -0, y: 0, z: 0.035222057}
-      rotation: {x: 0.0000015845445, y: 0.036114864, z: -0.000000029003097, w: 0.9993477}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandMiddle4
-      parentName: jonathanFingers:Solving:LeftHandMiddle3
-      position: {x: -0, y: 0, z: 0.021891145}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandRing
-      parentName: jonathanFingers:Solving:LeftHand
-      position: {x: 0.0026465624, y: -0.007572122, z: 0.0026465624}
-      rotation: {x: 0.058409635, y: -0.014508876, z: 0.03894848, w: 0.9974271}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandPinky
-      parentName: jonathanFingers:Solving:LeftHandRing
-      position: {x: 0.0026465624, y: -0.007572122, z: 0.0026465624}
-      rotation: {x: 0.021915575, y: 0.0068709194, z: 0.04923965, w: 0.99852294}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandPinky1
-      parentName: jonathanFingers:Solving:LeftHandPinky
-      position: {x: -0, y: 0, z: 0.07859931}
-      rotation: {x: 0.011658761, y: 0.033175994, z: -0.008958102, w: 0.9993414}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandPinky2
-      parentName: jonathanFingers:Solving:LeftHandPinky1
-      position: {x: -0, y: 0, z: 0.04143419}
-      rotation: {x: 0.0000018076964, y: 0.03294416, z: 0.000000263506, w: 0.9994572}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandPinky3
-      parentName: jonathanFingers:Solving:LeftHandPinky2
-      position: {x: -0, y: 0, z: 0.026660921}
-      rotation: {x: 0, y: 0.2054276, z: -0, w: 0.9786723}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandPinky4
-      parentName: jonathanFingers:Solving:LeftHandPinky3
-      position: {x: -0, y: 0, z: 0.020079464}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandRing1
-      parentName: jonathanFingers:Solving:LeftHandRing
-      position: {x: -0, y: 0, z: 0.092413805}
-      rotation: {x: -0.010709513, y: 0.03787557, z: -0.00536289, w: 0.9992108}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandRing2
-      parentName: jonathanFingers:Solving:LeftHandRing1
-      position: {x: -0, y: 0, z: 0.051716916}
-      rotation: {x: -0.0000014398247, y: 0.030576877, z: -0.00000028451905, w: 0.99953246}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandRing3
-      parentName: jonathanFingers:Solving:LeftHandRing2
-      position: {x: -0, y: 0, z: 0.034325067}
-      rotation: {x: -0.0000020277341, y: 0.03901834, z: -0.0000000868717, w: 0.99923855}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:LeftHandRing4
-      parentName: jonathanFingers:Solving:LeftHandRing3
-      position: {x: -0, y: 0, z: 0.021765335}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:Neck
-      parentName: jonathanFingers:Solving:Spine2
-      position: {x: -0, y: 0.013420032, z: 0.13420032}
-      rotation: {x: -0.09836461, y: -0.059631914, z: 0.097240366, w: 0.9885913}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:Head
-      parentName: jonathanFingers:Solving:Neck
-      position: {x: -0, y: 0.004613304, z: 0.052931707}
-      rotation: {x: 0.094985165, y: 0.08765868, z: 0.10254145, w: 0.98629564}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:HeadEnd
-      parentName: jonathanFingers:Solving:Head
-      position: {x: -0, y: 0, z: 0.0960896}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightShoulder
-      parentName: jonathanFingers:Solving:Spine2
-      position: {x: -0, y: -1.6009902e-18, z: 0.09394022}
-      rotation: {x: 0.023781778, y: -0.7690803, z: 0.019740975, w: 0.63840455}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightArm
-      parentName: jonathanFingers:Solving:RightShoulder
-      position: {x: -0, y: 0, z: 0.17013618}
-      rotation: {x: -0.08265128, y: 0.034852706, z: -0.34270865, w: 0.93514967}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightForeArm
-      parentName: jonathanFingers:Solving:RightArm
-      position: {x: -0, y: 0, z: 0.27268648}
-      rotation: {x: -0.040692132, y: 0.024228089, z: 0.2158813, w: 0.97527045}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHand
-      parentName: jonathanFingers:Solving:RightForeArm
-      position: {x: -0, y: 0, z: 0.25966647}
-      rotation: {x: 0.15266538, y: 0.080161646, z: 0.09155413, w: 0.9807575}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandIndex
-      parentName: jonathanFingers:Solving:RightHand
-      position: {x: -0.0026465624, y: 0.011479588, z: 0.0026465624}
-      rotation: {x: -0.081388324, y: -0.0006307213, z: -0.081810616, w: 0.993319}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandIndex1
-      parentName: jonathanFingers:Solving:RightHandIndex
-      position: {x: -0, y: 0, z: 0.093264624}
-      rotation: {x: 0.0021892488, y: -0.010332871, z: 0.12379688, w: 0.99225146}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandIndex2
-      parentName: jonathanFingers:Solving:RightHandIndex1
-      position: {x: -0, y: 0, z: 0.049553216}
-      rotation: {x: -0.00000016111875, y: -0.0074105384, z: 0.000000072297524, w: 0.9999726}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandIndex3
-      parentName: jonathanFingers:Solving:RightHandIndex2
-      position: {x: -0, y: 0, z: 0.029428178}
-      rotation: {x: 0, y: -0.29322127, z: -0, w: 0.9560446}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandIndex4
-      parentName: jonathanFingers:Solving:RightHandIndex3
-      position: {x: -0, y: 0, z: 0.017860139}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandThumb1
-      parentName: jonathanFingers:Solving:RightHandIndex
-      position: {x: -0.007939687, y: 0.011479588, z: 0.0026465624}
-      rotation: {x: -0.26930034, y: 0.03387264, z: 0.580174, w: 0.76793754}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandThumb2
-      parentName: jonathanFingers:Solving:RightHandThumb1
-      position: {x: -0, y: 0, z: 0.05954514}
-      rotation: {x: 0.03557248, y: 0.01162357, z: -0.004544444, w: 0.9992892}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandThumb3
-      parentName: jonathanFingers:Solving:RightHandThumb2
-      position: {x: -0, y: 0, z: 0.041460972}
-      rotation: {x: 0, y: -0.035673726, z: -0, w: 0.9993635}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandThumb4
-      parentName: jonathanFingers:Solving:RightHandThumb3
-      position: {x: -0, y: 0, z: 0.02446455}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandMiddle1
-      parentName: jonathanFingers:Solving:RightHand
-      position: {x: -0, y: 0, z: 0.096834995}
-      rotation: {x: -0.0032253112, y: -0.048583597, z: -0.062449615, w: 0.9968598}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandMiddle2
-      parentName: jonathanFingers:Solving:RightHandMiddle1
-      position: {x: -0, y: 0, z: 0.051257417}
-      rotation: {x: 0.0000022223683, y: -0.009304493, z: -0.00000041653396, w: 0.9999568}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandMiddle3
-      parentName: jonathanFingers:Solving:RightHandMiddle2
-      position: {x: -0, y: 0, z: 0.03328949}
-      rotation: {x: -0.000000042739654, y: -0.023124779, z: -0.00000011209412, w: 0.9997327}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandMiddle4
-      parentName: jonathanFingers:Solving:RightHandMiddle3
-      position: {x: -0, y: 0, z: 0.019643893}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandRing
-      parentName: jonathanFingers:Solving:RightHand
-      position: {x: -0.0026465624, y: -0.011479588, z: 0.0026465624}
-      rotation: {x: 0.061116118, y: -0.012117751, z: -0.05904231, w: 0.99630916}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandPinky
-      parentName: jonathanFingers:Solving:RightHandRing
-      position: {x: -0.0026465624, y: -0.011479588, z: 0.0026465624}
-      rotation: {x: 0.018323457, y: -0.006482944, z: -0.07980969, w: 0.99662066}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandPinky1
-      parentName: jonathanFingers:Solving:RightHandPinky
-      position: {x: -0, y: 0, z: 0.07203433}
-      rotation: {x: -0.032543004, y: -0.018379424, z: -0.05739772, w: 0.99765164}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandPinky2
-      parentName: jonathanFingers:Solving:RightHandPinky1
-      position: {x: -0, y: 0, z: 0.038906172}
-      rotation: {x: 0.0000016763801, y: -0.017064443, z: -0.00000007450578, w: 0.99985445}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandPinky3
-      parentName: jonathanFingers:Solving:RightHandPinky2
-      position: {x: -0, y: 0, z: 0.024235083}
-      rotation: {x: -0.0000020424104, y: -0.026199177, z: 0.0000002501465, w: 0.99965674}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandPinky4
-      parentName: jonathanFingers:Solving:RightHandPinky3
-      position: {x: -0, y: 0, z: 0.018018192}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandRing1
-      parentName: jonathanFingers:Solving:RightHandRing
-      position: {x: -0, y: 0, z: 0.08529548}
-      rotation: {x: -0.03147169, y: -0.02435265, z: -0.082844965, w: 0.9957677}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandRing2
-      parentName: jonathanFingers:Solving:RightHandRing1
-      position: {x: -0, y: 0, z: 0.047729015}
-      rotation: {x: -0.0000009164214, y: -0.0058094226, z: 0.00000068335794, w: 0.99998313}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandRing3
-      parentName: jonathanFingers:Solving:RightHandRing2
-      position: {x: -0, y: 0, z: 0.032733176}
-      rotation: {x: -0.00000067279615, y: -0.027428586, z: 0.00000033643013, w: 0.9996238}
-      scale: {x: 1, y: 1, z: 1}
-    - name: jonathanFingers:Solving:RightHandRing4
-      parentName: jonathanFingers:Solving:RightHandRing3
-      position: {x: -0, y: 0, z: 0.019530999}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      position: {x: -0.006900504, y: 0.87014467, z: 0.016385496}
+      rotation: {x: 0.114864685, y: 0.12144672, z: 0.73368496, w: -0.65860707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_spine
+      parentName: jonathanFingers:Retargeting:B_hips
+      position: {x: -0.1799141, y: 0.000000013583137, z: 0}
+      rotation: {x: 0.047410227, y: 0.34233576, z: 0.096766666, w: 0.93337816}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_chest
+      parentName: jonathanFingers:Retargeting:B_spine
+      position: {x: -0.15047424, y: 0.00000001136049, z: 0.0000000047683715}
+      rotation: {x: -0.011039982, y: -0.14810522, z: -0.041622672, w: 0.9880337}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_upperChest
+      parentName: jonathanFingers:Retargeting:B_chest
+      position: {x: -0.14252818, y: 0.000000010760584, z: -0.000000007152557}
+      rotation: {x: -0.027997041, y: -0.015672144, z: -0.05003103, w: 0.9982322}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_neck
+      parentName: jonathanFingers:Retargeting:B_upperChest
+      position: {x: -0.20827699, y: 0.00000001572447, z: 0}
+      rotation: {x: -0.17449495, y: 0.16008306, z: -0.033773653, w: 0.9709708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_head
+      parentName: jonathanFingers:Retargeting:B_neck
+      position: {x: -0.06813276, y: 0.0000000051438835, z: -0.0000000023841857}
+      rotation: {x: -0.104875766, y: -0.065167405, z: 0.08298487, w: 0.988872}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_shoulder_L
+      parentName: jonathanFingers:Retargeting:B_upperChest
+      position: {x: -0.20827699, y: 0.00000001572447, z: 0}
+      rotation: {x: -0.0048248894, y: -0.03709914, z: 0.71702397, w: 0.69604385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_upper_arm_L
+      parentName: jonathanFingers:Retargeting:B_shoulder_L
+      position: {x: -0.18017663, y: -0.0688828, z: -0.00014649375}
+      rotation: {x: 0.86917865, y: 0.053226214, z: -0.00711814, w: 0.4915738}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_forearm_L
+      parentName: jonathanFingers:Retargeting:B_upper_arm_L
+      position: {x: -0.25348926, y: 0.000000014305114, z: 0.0000000047683715}
+      rotation: {x: 0.2678375, y: -0.008835419, z: -0.01754081, w: 0.96326387}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_hand_L
+      parentName: jonathanFingers:Retargeting:B_forearm_L
+      position: {x: -0.28138602, y: 0.00000006020069, z: 0.00000016812234}
+      rotation: {x: 0.73380274, y: -0.20528778, z: 0.03432095, w: 0.64669365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_palm_01_L
+      parentName: jonathanFingers:Retargeting:B_hand_L
+      position: {x: -0.07265077, y: 0.0075665484, z: -0.034388933}
+      rotation: {x: -0.026751496, y: -0.013633674, z: -0.04183685, w: 0.9986732}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_index_01_L
+      parentName: jonathanFingers:Retargeting:B_palm_01_L
+      position: {x: -0.06905625, y: 0.000000011920928, z: 0.000000038146972}
+      rotation: {x: 0.0012159356, y: 0.0112809595, z: -0.014367757, w: 0.99983245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_index_02_L
+      parentName: jonathanFingers:Retargeting:B_f_index_01_L
+      position: {x: -0.04279975, y: 0.00000011086464, z: -0.000000028610229}
+      rotation: {x: -0.0025665099, y: 0.0000014770826, z: -0.0000069467583, w: 0.9999967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_index_03_L
+      parentName: jonathanFingers:Retargeting:B_f_index_02_L
+      position: {x: -0.037281793, y: -0.00000004172325, z: -0.000000009536743}
+      rotation: {x: 0.009865995, y: -0.015364828, z: 0.027867913, w: 0.99944484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_thumb_01_L
+      parentName: jonathanFingers:Retargeting:B_palm_01_L
+      position: {x: 0.034065567, y: 0.0060470067, z: 0.010618346}
+      rotation: {x: 0.04156095, y: -0.44378984, z: -0.23022804, w: 0.865054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_thumb_02_L
+      parentName: jonathanFingers:Retargeting:B_thumb_01_L
+      position: {x: -0.057353947, y: -0.000000102519984, z: 0.00000004261732}
+      rotation: {x: -0.54800236, y: -0.04654777, z: -0.11703143, w: 0.82694036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_thumb_03_L
+      parentName: jonathanFingers:Retargeting:B_thumb_02_L
+      position: {x: -0.047159098, y: 0.000000011920928, z: -0.0000001001358}
+      rotation: {x: -0.008187744, y: -0.032515395, z: -0.015720004, w: 0.99931407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_palm_02_L
+      parentName: jonathanFingers:Retargeting:B_hand_L
+      position: {x: -0.075841814, y: -0.0024846261, z: -0.012874966}
+      rotation: {x: 0.015757997, y: 0.058999117, z: -0.045661706, w: 0.9970887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_middle_01_L
+      parentName: jonathanFingers:Retargeting:B_palm_02_L
+      position: {x: -0.06446431, y: -0.0000000500679, z: 0.0000000047683715}
+      rotation: {x: 0.015215012, y: 0.021734226, z: 0.01934766, w: 0.99946076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_middle_02_L
+      parentName: jonathanFingers:Retargeting:B_f_middle_01_L
+      position: {x: -0.044799533, y: 0.00000000834465, z: -0.000000010728836}
+      rotation: {x: 0.0003297106, y: -0.0000023813925, z: 0.00000075669976, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_middle_03_L
+      parentName: jonathanFingers:Retargeting:B_f_middle_02_L
+      position: {x: -0.03902382, y: -0.000000070929524, z: 0.00000002026558}
+      rotation: {x: 0.0060581956, y: -0.010650941, z: 0.02962849, w: 0.9994859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_palm_03_L
+      parentName: jonathanFingers:Retargeting:B_hand_L
+      position: {x: -0.06954075, y: -0.01212558, z: 0.011136639}
+      rotation: {x: -0.07251049, y: 0.10585392, z: -0.060529232, w: 0.98988557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_ring_01_L
+      parentName: jonathanFingers:Retargeting:B_palm_03_L
+      position: {x: -0.063747756, y: -0.00000002324581, z: 0.000000009536743}
+      rotation: {x: 0.08556959, y: 0.08425177, z: 0.025032545, w: 0.9924479}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_ring_02_L
+      parentName: jonathanFingers:Retargeting:B_f_ring_01_L
+      position: {x: -0.042007074, y: 0.000000042468308, z: 0.0000000047683715}
+      rotation: {x: 0.0019353828, y: 0.0000013671842, z: 0.00000046682632, w: 0.99999815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_ring_03_L
+      parentName: jonathanFingers:Retargeting:B_f_ring_02_L
+      position: {x: -0.0365915, y: -0.00000011965632, z: -0.0000000023841857}
+      rotation: {x: 0.015953831, y: -0.009958037, z: 0.030269563, w: 0.99936485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_palm_04_L
+      parentName: jonathanFingers:Retargeting:B_hand_L
+      position: {x: -0.061824545, y: -0.015039053, z: 0.030129895}
+      rotation: {x: 0.018282311, y: 0.17281723, z: -0.05989316, w: 0.98296124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_pinky_01_L
+      parentName: jonathanFingers:Retargeting:B_palm_04_L
+      position: {x: -0.0598513, y: -0.00000011321157, z: 0.000000002682209}
+      rotation: {x: -0.065136574, y: 0.10268569, z: -0.02233285, w: 0.99232763}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_pinky_02_L
+      parentName: jonathanFingers:Retargeting:B_f_pinky_01_L
+      position: {x: -0.03277798, y: -0.000000073760745, z: 0.000000026226044}
+      rotation: {x: -0.000021602973, y: 0.00000080559454, z: -0.0000051334537, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_pinky_03_L
+      parentName: jonathanFingers:Retargeting:B_f_pinky_02_L
+      position: {x: -0.028552158, y: 0.00000008359551, z: -0.000000019073486}
+      rotation: {x: 0.031146443, y: -0.014893202, z: 0.037843738, w: 0.99868715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_shoulder_R
+      parentName: jonathanFingers:Retargeting:B_upperChest
+      position: {x: -0.20827699, y: 0.00000001572447, z: 0}
+      rotation: {x: -0.0033930305, y: -0.07963276, z: -0.650551, w: 0.7552685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_upper_arm_R
+      parentName: jonathanFingers:Retargeting:B_shoulder_R
+      position: {x: -0.1801766, y: 0.06888282, z: -0.00014649138}
+      rotation: {x: -0.51790917, y: 0.075064965, z: -0.028134104, w: 0.8516712}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_forearm_R
+      parentName: jonathanFingers:Retargeting:B_upper_arm_R
+      position: {x: -0.25348926, y: 0.000000019073486, z: -0.000000015497207}
+      rotation: {x: -0.21277526, y: -0.028010577, z: 0.025507798, w: 0.97636646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_hand_R
+      parentName: jonathanFingers:Retargeting:B_forearm_R
+      position: {x: -0.28138602, y: -0.0000000077486035, z: 0.000000015459955}
+      rotation: {x: 0.7653625, y: 0.2152588, z: -0.11344556, w: -0.59583044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_palm_01_R
+      parentName: jonathanFingers:Retargeting:B_hand_R
+      position: {x: -0.072650805, y: -0.0075666904, z: -0.0343889}
+      rotation: {x: 0.026751377, y: -0.0136336265, z: 0.041836835, w: 0.9986732}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_index_01_R
+      parentName: jonathanFingers:Retargeting:B_palm_01_R
+      position: {x: -0.06905617, y: 0.00000016450882, z: 0.000000014305114}
+      rotation: {x: -0.0012159412, y: 0.011280947, z: 0.014367751, w: 0.99983245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_index_02_R
+      parentName: jonathanFingers:Retargeting:B_f_index_01_R
+      position: {x: -0.04279973, y: -0.000000011920928, z: 0}
+      rotation: {x: 0.002566493, y: 0.000001530168, z: 0.000006944895, w: 0.9999967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_index_03_R
+      parentName: jonathanFingers:Retargeting:B_f_index_02_R
+      position: {x: -0.037281666, y: 0.00000007033348, z: -0.000000038146972}
+      rotation: {x: -0.009865997, y: -0.015364876, z: -0.027867934, w: 0.99944484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_thumb_01_R
+      parentName: jonathanFingers:Retargeting:B_palm_01_R
+      position: {x: 0.034065623, y: -0.006046853, z: 0.010618317}
+      rotation: {x: 0.043785248, y: -0.4067055, z: 0.040268645, w: 0.9116205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_thumb_02_R
+      parentName: jonathanFingers:Retargeting:B_thumb_01_R
+      position: {x: -0.057353947, y: 0.00000007152557, z: -0.000000026524066}
+      rotation: {x: 0.5520176, y: -0.013777342, z: 0.034641847, w: 0.8329987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_thumb_03_R
+      parentName: jonathanFingers:Retargeting:B_thumb_02_R
+      position: {x: -0.047159117, y: 0.0000000166893, z: -0.00000006198883}
+      rotation: {x: 0.008187708, y: -0.03251536, z: 0.015720008, w: 0.99931407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_palm_02_R
+      parentName: jonathanFingers:Retargeting:B_hand_R
+      position: {x: -0.07584187, y: 0.0024843346, z: -0.012874911}
+      rotation: {x: -0.015757974, y: 0.058999192, z: 0.04566166, w: 0.9970887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_middle_01_R
+      parentName: jonathanFingers:Retargeting:B_palm_02_R
+      position: {x: -0.064464346, y: -0.000000038444995, z: -0.0000000047683715}
+      rotation: {x: -0.015621839, y: 0.0043263044, z: -0.022443455, w: 0.99961674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_middle_02_R
+      parentName: jonathanFingers:Retargeting:B_f_middle_01_R
+      position: {x: -0.044799622, y: 0.00000019580125, z: 0.0000000166893}
+      rotation: {x: -0.00032968543, y: -0.000002386514, z: -0.000000885455, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_middle_03_R
+      parentName: jonathanFingers:Retargeting:B_f_middle_02_R
+      position: {x: -0.039023835, y: -0.000000115334984, z: 0.000000014305114}
+      rotation: {x: -0.006058172, y: -0.01065095, z: -0.029628476, w: 0.9994859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_palm_03_R
+      parentName: jonathanFingers:Retargeting:B_hand_R
+      position: {x: -0.069540806, y: 0.012125445, z: 0.011136671}
+      rotation: {x: 0.07251036, y: 0.10585397, z: 0.060529195, w: 0.98988557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_ring_01_R
+      parentName: jonathanFingers:Retargeting:B_palm_03_R
+      position: {x: -0.06374774, y: 0.000000118613244, z: -0.000000042915342}
+      rotation: {x: -0.09034964, y: -0.04669424, z: -0.040882107, w: 0.99397445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_ring_02_R
+      parentName: jonathanFingers:Retargeting:B_f_ring_01_R
+      position: {x: -0.04200715, y: -0.000000029653311, z: -0.000000007152557}
+      rotation: {x: -0.0019356324, y: 0.0000013606649, z: -0.0000004792828, w: 0.99999815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_ring_03_R
+      parentName: jonathanFingers:Retargeting:B_f_ring_02_R
+      position: {x: -0.036591385, y: -0.00000015825033, z: -0.000000011920928}
+      rotation: {x: -0.015953563, y: -0.009958031, z: -0.030269535, w: 0.99936485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_palm_04_R
+      parentName: jonathanFingers:Retargeting:B_hand_R
+      position: {x: -0.061824508, y: 0.015038921, z: 0.030129928}
+      rotation: {x: -0.018282274, y: 0.17281726, z: 0.05989306, w: 0.98296124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_pinky_01_R
+      parentName: jonathanFingers:Retargeting:B_palm_04_R
+      position: {x: -0.05985134, y: 0.00000020943581, z: -0.0000000023841857}
+      rotation: {x: 0.06521231, y: -0.12430294, z: -0.02468259, w: 0.98979133}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_pinky_02_R
+      parentName: jonathanFingers:Retargeting:B_f_pinky_01_R
+      position: {x: -0.032778095, y: -0.000000062584874, z: 0.00000002026558}
+      rotation: {x: 0.000021740803, y: 0.00000083632807, z: 0.000005193522, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_f_pinky_03_R
+      parentName: jonathanFingers:Retargeting:B_f_pinky_02_R
+      position: {x: -0.028552176, y: -0.0000001603365, z: -0.000000015497207}
+      rotation: {x: -0.031146342, y: -0.014893237, z: -0.0378438, w: 0.99868715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_thigh_L
+      parentName: jonathanFingers:Retargeting:B_hips
+      position: {x: -0.064631216, y: -0.07962748, z: 0.0051341197}
+      rotation: {x: 0.09650599, y: 0.9717161, z: 0.1918361, w: -0.09825127}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_shin_L
+      parentName: jonathanFingers:Retargeting:B_thigh_L
+      position: {x: -0.46786693, y: 0.00000003039837, z: -5.9604643e-10}
+      rotation: {x: -0.073700294, y: 0.29359642, z: -0.06526802, w: 0.9508468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_foot_L
+      parentName: jonathanFingers:Retargeting:B_shin_L
+      position: {x: -0.3730876, y: 0.000000019371509, z: -5.9604643e-10}
+      rotation: {x: 0.28832546, y: -0.5912408, z: 0.06429076, w: 0.7504462}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_toe_L
+      parentName: jonathanFingers:Retargeting:B_foot_L
+      position: {x: -0.17486915, y: -2.9802322e-10, z: 0.000000005960464}
+      rotation: {x: 0.9344296, y: -0.013430313, z: 0.33687705, w: 0.11478232}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_thigh_R
+      parentName: jonathanFingers:Retargeting:B_hips
+      position: {x: -0.0646312, y: 0.07962749, z: 0.0051341197}
+      rotation: {x: -0.16008073, y: 0.97957414, z: -0.09606981, w: -0.07469511}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_shin_R
+      parentName: jonathanFingers:Retargeting:B_thigh_R
+      position: {x: -0.4678669, y: 0.00000004529953, z: -8.9406965e-10}
+      rotation: {x: 0.094145656, y: 0.290886, z: 0.09200498, w: 0.9476588}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_foot_R
+      parentName: jonathanFingers:Retargeting:B_shin_R
+      position: {x: -0.3730876, y: 0.000000016763806, z: -8.9406965e-10}
+      rotation: {x: -0.11633978, y: -0.60652137, z: -0.048981003, w: 0.7849827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jonathanFingers:Retargeting:B_toe_R
+      parentName: jonathanFingers:Retargeting:B_foot_R
+      position: {x: -0.17486914, y: 0.000000005960464, z: -0.0000000011920929}
+      rotation: {x: 0.95361483, y: 0.010955301, z: 0.27572528, w: -0.12030899}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
