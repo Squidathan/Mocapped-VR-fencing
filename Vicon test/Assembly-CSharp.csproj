@@ -875,10 +875,6 @@
       <Project>{CA6F264D-1FAD-D599-F79E-5BC12DFE7D0E}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
-    <ProjectReference Include="SteamVR.csproj">
-      <Project>{2201BD47-3068-ED83-E6B5-5324751E4509}</Project>
-      <Name>SteamVR</Name>
-    </ProjectReference>
     <ProjectReference Include="ViconPluginUtils.csproj">
       <Project>{C8BDC736-39EF-923C-482D-16949DB3B1AA}</Project>
       <Name>ViconPluginUtils</Name>
@@ -886,6 +882,10 @@
     <ProjectReference Include="Scripts.csproj">
       <Project>{BAC7CA97-A3FD-CCFA-3299-729808A119C8}</Project>
       <Name>Scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR.csproj">
+      <Project>{2201BD47-3068-ED83-E6B5-5324751E4509}</Project>
+      <Name>SteamVR</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
