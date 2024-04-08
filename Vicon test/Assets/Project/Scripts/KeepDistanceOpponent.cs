@@ -8,7 +8,7 @@ public class KeepDistanceOpponent : Opponent
     [SerializeField]
     KeepDistance keepDistanceManager;
 
-
+ 
 
     Array steps = Enum.GetValues(typeof(KeepDistance.StepAnim));
     KeepDistance.StepAnim step;

@@ -8,6 +8,7 @@ TagManager:
   - FxTemporaire
   - sword
   - playerSword
+  - playerFoot
   layers:
   - Default
   - TransparentFX

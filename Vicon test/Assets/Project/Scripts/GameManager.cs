@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
         Menu,
         StaticManikin,
         KeepDistance,
-        Opponent
+        ParryReposte
     }
     public static gameMode state;
 
@@ -111,6 +111,19 @@ public class GameManager : MonoBehaviour
         OnKeepDistance?.Invoke();
         OnActivity?.Invoke();
     }
+
+
+    // select parry reposte activity
+    public event Action OnParryReposte;
+    public void ParryReposte()
+    {
+        state = gameMode.ParryReposte;
+        OnParryReposte?.Invoke();
+        OnActivity?.Invoke();
+    }
+
+
+
 
     // select to go to menu
     public event Action onMenu;

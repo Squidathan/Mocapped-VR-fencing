@@ -11,6 +11,6 @@ public class MenuSelect : MonoBehaviour
             GameManager.gameManager.Menu();
            
         }
-        // Debug.Log("go back to menu");
+        Debug.Log("go back to menu");
     }
 }

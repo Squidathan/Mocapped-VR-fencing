@@ -52,13 +52,17 @@ public abstract class Activity : MonoBehaviour
     
     public void PauseActivity()
     {
-        Time.timeScale = 0;
+        
+        //Debug.Log("pause");
+        
     }
 
     // re-enables time after a couple seconds if needed
     public void UnPauseActivity()
     {
-        Time.timeScale = 1;
+        
+        //Debug.Log("play");
+        
     }
 
 

@@ -23,9 +23,9 @@ public class Box : MonoBehaviour
     fencer opponent;
 
     // states
-    bool playerLightOn;
-    bool opponentLightOn;
-    bool timedOut;
+    protected bool playerLightOn;
+    protected bool opponentLightOn;
+    protected bool timedOut;
 
     // lights
     [SerializeField]
@@ -36,7 +36,7 @@ public class Box : MonoBehaviour
     Material playerLightMaterial;
     Material opponentLightMaterial;
 
-    private void Start()
+    protected virtual void Start()
     {
         // subscribe to events
         GameManager.gameManager.OnOpponentHit += OpponentHit;
@@ -46,7 +46,7 @@ public class Box : MonoBehaviour
         opponentLightMaterial = opponentLight.GetComponent<Renderer>().material;
     }
 
-    private void OnDestroy()
+    protected virtual void OnDestroy()
     {
         // unsubscribe from events
         GameManager.gameManager.OnOpponentHit -= OpponentHit;
@@ -54,10 +54,11 @@ public class Box : MonoBehaviour
     }
 
 
-    private void OpponentHit()
+    protected virtual void OpponentHit()
     {
-        if (timedOut == false)
+        if (timedOut == false && playerLightOn == false)
         {
+            Debug.Log("opponentHit");
             playerLightOn = true;
 
             // turn light on and play sound
@@ -68,9 +69,9 @@ public class Box : MonoBehaviour
     }
 
 
-    private void PlayerHit()
+    protected virtual void PlayerHit()
     {
-        if (timedOut == false)
+        if (timedOut == false && opponentLightOn == false)
         {
             opponentLightOn = true;
 
@@ -92,13 +93,17 @@ public class Box : MonoBehaviour
         hitting.hit = true;
         gotHit.gotHit = true;
         yield return new WaitForSeconds(lightOffTime);
+        CalculatePoints();
+
         hitting.hit = false;
         gotHit.gotHit = false;
         timedOut = false;
 
         // stop sound and lights
         opponentLightMaterial.DisableKeyword("_EMISSION");
+        opponentLightOn = false;
         playerLightMaterial.DisableKeyword("_EMISSION");
+        playerLightOn = false;
         audioSource.Stop();
     }
 
@@ -106,5 +111,11 @@ public class Box : MonoBehaviour
     {
         yield return new WaitForSeconds(timedOutTime);
         timedOut = true;
+    }
+
+
+    protected virtual void CalculatePoints()
+    {
+
     }
 }
