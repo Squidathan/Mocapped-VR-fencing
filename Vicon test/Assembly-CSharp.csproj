@@ -97,6 +97,7 @@
     <Compile Include="Assets\Project\Scripts\PracticeManikinAnimSelect.cs" />
     <Compile Include="Assets\Project\Scripts\soundOnHitStaticCollider.cs" />
     <Compile Include="Assets\Project\Scripts\EnableOrDisableOnMenu.cs" />
+    <Compile Include="Assets\ParryReposteNumberOfPointsSetting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
