@@ -17,7 +17,7 @@ public class manikinOpponent : Opponent
         {
             //Debug.Log("play anim");
             yield return new WaitForSeconds(loopAnimDelay);
-            SetAnim(manikinActivityManager.manikinAnimation.ToString());
+            SetAnim(manikinActivityManager.manikinAnimation.ToString(), true);
         }
         
     }

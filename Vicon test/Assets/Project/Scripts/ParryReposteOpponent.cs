@@ -25,7 +25,7 @@ public class ParryReposteOpponent : Opponent
     {
             //Debug.Log("play anim");
             yield return new WaitForSeconds(loopAnimDelay);
-            SetAnim(attackAnimation.ToString());
+            SetAnim(attackAnimation.ToString(), true);
     }
 
 

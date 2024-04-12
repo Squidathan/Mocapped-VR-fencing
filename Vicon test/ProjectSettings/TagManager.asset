@@ -9,6 +9,9 @@ TagManager:
   - sword
   - playerSword
   - playerFoot
+  - forwardBound
+  - backwardBound
+  - playerHand
   layers:
   - Default
   - TransparentFX

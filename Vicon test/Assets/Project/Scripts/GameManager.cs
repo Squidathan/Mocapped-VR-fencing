@@ -131,7 +131,7 @@ public class GameManager : MonoBehaviour
     {
         state = gameMode.Menu;
         onMenu?.Invoke();
-        
+        Debug.Log("on menu");
     }
 
 

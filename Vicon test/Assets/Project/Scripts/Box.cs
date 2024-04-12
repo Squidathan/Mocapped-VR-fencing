@@ -36,6 +36,11 @@ public class Box : MonoBehaviour
     Material playerLightMaterial;
     Material opponentLightMaterial;
 
+    private void OnEnable()
+    {
+        ResetBox();
+    }
+
     protected virtual void Start()
     {
         // subscribe to events
@@ -117,5 +122,22 @@ public class Box : MonoBehaviour
     protected virtual void CalculatePoints()
     {
 
+    }
+
+
+    public void ResetBox()
+    {
+        // reset state variables
+        playerLightOn = false;
+        opponentLightOn = false;
+        timedOut = false;
+
+
+        // stop lights and sounds
+        opponentLightMaterial.DisableKeyword("_EMISSION");
+        opponentLightOn = false;
+        playerLightMaterial.DisableKeyword("_EMISSION");
+        playerLightOn = false;
+        audioSource.Stop();
     }
 }

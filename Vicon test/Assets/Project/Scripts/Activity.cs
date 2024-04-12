@@ -24,23 +24,32 @@ public abstract class Activity : MonoBehaviour
     // called on return to main menu
     public void BackToMainMenu()
     {
-        ToActivityMenu();
+        // commenting out these lines fixes issues detailed in ToActivityMenu for some reason if reset activty also doesnt run
+        //if (state == ActivityState.Activity)
+        //{
+
+            ToActivityMenu();
+
+        //}
+
+
+
         settingsMenu.SetActive(false);
     }
 
     // go to activity menu
-    public void ToActivityMenu()
+    public virtual void ToActivityMenu()
     {
         ResetActivity();
-
-        activityObject.SetActive(false);
-        settingsMenu.SetActive(true);
-        state = ActivityState.Menu;
+        Debug.Log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~################~~~~~~~~~~~~~"); // this line works
+        activityObject.SetActive(false); // this line not working only for going from back th main menu for some reason
+        settingsMenu.SetActive(true); // this line also doesn't work but only when being called from back to main menu
+        state = ActivityState.Menu; // this line works
         
     }
 
     // go to activity
-    public void BeginActivity()
+    public virtual void BeginActivity()
     {
         settingsMenu.SetActive(false);
         activityObject.SetActive(true);

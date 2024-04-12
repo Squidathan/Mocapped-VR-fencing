@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class KeepDistance : Activity
 {
+    
+
+    [SerializeField]
+    GameObject opponent;
+
     public enum StepAnim
     {
         mediumStepForward,

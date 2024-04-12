@@ -7,10 +7,10 @@ public class opponentModel : MonoBehaviour
     [SerializeField]
     Opponent opponent;
 
-    
+    [SerializeField]
+    Transform startTransform;
+
     public Transform swordHand;
-
-
 
 
     // assign to model (if changing just disable other then enable one)
@@ -23,6 +23,7 @@ public class opponentModel : MonoBehaviour
     private void OnEnable()
     {
         CheckForModel();
+        transform.position = startTransform.position;
     }
 
     void CheckForModel()
@@ -31,5 +32,11 @@ public class opponentModel : MonoBehaviour
         {
             opponent.model = this;
         }
+    }
+
+    private void FixedUpdate()
+    {
+        transform.position = new Vector3(transform.position.x, transform.position.y, startTransform.position.z);
+        
     }
 }

@@ -5,6 +5,10 @@ using System;
 
 public class StaticManikin : Activity
 {
+    [SerializeField]
+    Box box;
+
+
     // Settings
     public enum ManikinAnimation
     {
@@ -33,7 +37,7 @@ public class StaticManikin : Activity
     // called when exiting activity
     public override void ResetActivity()
     {
-        
+        //box.ResetBox();
     }
 
     

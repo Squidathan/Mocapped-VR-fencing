@@ -56,8 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Project\Scripts\KeepDistanceBox.cs" />
     <Compile Include="Assets\Project\Scripts\MenuSelect.cs" />
     <Compile Include="Assets\Project\Scripts\GamifiedParryReposteSettings.cs" />
+    <Compile Include="Assets\Project\Scripts\OpponentKeepDiscCollider.cs" />
     <Compile Include="Assets\Project\Scripts\StartParryReposte.cs" />
     <Compile Include="Assets\Project\Scripts\ToKeepDistanceMenu.cs" />
     <Compile Include="Assets\Project\Scripts\manikinOpponent.cs" />
@@ -65,25 +67,34 @@
     <Compile Include="Assets\Project\Scripts\DisableOnActivity.cs" />
     <Compile Include="Assets\Project\Scripts\Sabre.cs" />
     <Compile Include="Assets\Project\Scripts\KeepDistanceOpponent.cs" />
+    <Compile Include="Assets\Project\Scripts\BackwardBound.cs" />
     <Compile Include="Assets\Project\Scripts\ToParryMenu.cs" />
     <Compile Include="Assets\Project\Scripts\ParryReposteSelect.cs" />
+    <Compile Include="Assets\Project\Scripts\ParryReposteNumberOfPointsSetting.cs" />
+    <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Project\Scripts\Player.cs" />
+    <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PushPhysics.cs" />
     <Compile Include="Assets\Project\Scripts\startStaticManikin.cs" />
     <Compile Include="Assets\Project\Scripts\StartActivity.cs" />
+    <Compile Include="Assets\Project\Scripts\PlayerKeepDiscCollider.cs" />
+    <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\MouseComponent.cs" />
     <Compile Include="Assets\Project\Scripts\ToStaticManikinMenu.cs" />
     <Compile Include="Assets\Project\Scripts\Box.cs" />
     <Compile Include="Assets\Project\Scripts\Opponent.cs" />
     <Compile Include="Assets\Project\Scripts\onIdle.cs" />
     <Compile Include="Assets\Project\Scripts\ParryReposteOpponent.cs" />
     <Compile Include="Assets\Project\Scripts\ParryReposte.cs" />
+    <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PlayRandomSound.cs" />
     <Compile Include="Assets\Project\Scripts\KeepDistanceSelect.cs" />
     <Compile Include="Assets\Project\Scripts\OpponentSabre.cs" />
     <Compile Include="Assets\Project\Scripts\Activity.cs" />
     <Compile Include="Assets\Project\Scripts\PointBox.cs" />
     <Compile Include="Assets\Project\Scripts\StaticManikinEnable.cs" />
     <Compile Include="Assets\Project\Scripts\GameManager.cs" />
+    <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\LightFlicker.cs" />
     <Compile Include="Assets\Project\Scripts\staticManikinSelect.cs" />
     <Compile Include="Assets\Project\Scripts\enabler.cs" />
+    <Compile Include="Assets\Project\Scripts\ForwardBound.cs" />
     <Compile Include="Assets\Project\Scripts\StartKeepDistance.cs" />
     <Compile Include="Assets\Project\Scripts\OtherObjectsRootMotionUpdate.cs" />
     <Compile Include="Assets\Project\Scripts\EnableOrDisableOnActivity.cs" />
@@ -97,7 +108,6 @@
     <Compile Include="Assets\Project\Scripts\PracticeManikinAnimSelect.cs" />
     <Compile Include="Assets\Project\Scripts\soundOnHitStaticCollider.cs" />
     <Compile Include="Assets\Project\Scripts\EnableOrDisableOnMenu.cs" />
-    <Compile Include="Assets\ParryReposteNumberOfPointsSetting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

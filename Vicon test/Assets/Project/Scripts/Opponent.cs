@@ -102,10 +102,14 @@ public class Opponent : fencer
         gotParry = false;
     }
 
-    protected void SetAnim(string anim)
+    protected void SetAnim(string anim, bool sword)
     {
         //Debug.Log("anim");
         model.GetComponent<Animator>().SetTrigger(anim);
-        opponentSabre.GetComponent<Animator>().SetTrigger(anim);
+        if (sword)
+        {
+            opponentSabre.GetComponent<Animator>().SetTrigger(anim);
+        }
+
     }
 }
