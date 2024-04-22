@@ -40,8 +40,8 @@ public abstract class Activity : MonoBehaviour
     // go to activity menu
     public virtual void ToActivityMenu()
     {
-        ResetActivity();
-        Debug.Log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~################~~~~~~~~~~~~~"); // this line works
+        //ResetActivity();
+        //Debug.Log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~################~~~~~~~~~~~~~"); // this line works
         activityObject.SetActive(false); // this line not working only for going from back th main menu for some reason
         settingsMenu.SetActive(true); // this line also doesn't work but only when being called from back to main menu
         state = ActivityState.Menu; // this line works
@@ -54,6 +54,7 @@ public abstract class Activity : MonoBehaviour
         settingsMenu.SetActive(false);
         activityObject.SetActive(true);
         state = ActivityState.Activity;
+        Debug.Log("begin activity");
     }
 
 

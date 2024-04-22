@@ -12,6 +12,13 @@ public abstract class StartActivity : MonoBehaviour
     [SerializeField]
     AudioSource countdownAudioSource;
 
+    private void OnEnable()
+    {
+        collidersInCollider = 0;
+        playerInCollider = false;
+        startActivitiesToReject = 0;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("playerFoot"))
@@ -36,7 +43,7 @@ public abstract class StartActivity : MonoBehaviour
 
             if (collidersInCollider == 0) // if player not in collider
             {
-                Debug.Log(startActivitiesToReject);
+                //Debug.Log(startActivitiesToReject);
                 startActivitiesToReject++;
                 countdownAudioSource.Stop();
                 playerInCollider = false;

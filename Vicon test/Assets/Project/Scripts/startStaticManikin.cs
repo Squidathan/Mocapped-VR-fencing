@@ -6,6 +6,7 @@ public class startStaticManikin : StartActivity
 {
     public override void BeginActivity()
     {
+        
         StaticManikin.staticManikin.BeginActivity();
     }
 }

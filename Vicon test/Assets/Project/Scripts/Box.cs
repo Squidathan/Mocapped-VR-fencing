@@ -63,7 +63,7 @@ public class Box : MonoBehaviour
     {
         if (timedOut == false && playerLightOn == false)
         {
-            Debug.Log("opponentHit");
+            //Debug.Log("opponentHit");
             playerLightOn = true;
 
             // turn light on and play sound

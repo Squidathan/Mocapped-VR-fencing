@@ -21,7 +21,7 @@ public class OpponentSabre : sabre
         if (other.CompareTag("playerSword"))
         {
             GameManager.gameManager.BladeClash();
-            Debug.Log("playersword hit opponent sabre");
+            //Debug.Log("playersword hit opponent sabre");
         }
         else if (other.CompareTag("Player"))
         {
