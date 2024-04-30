@@ -15,6 +15,11 @@ public abstract class pointsActivity : Activity
 
     public int pointsToGoTo = 5;
 
+    private void OnDisable()
+    {
+        winMessage.SetActive(false);
+        lossMessage.SetActive(false);
+    }
 
     public IEnumerator Win()
     {

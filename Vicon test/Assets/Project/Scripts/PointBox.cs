@@ -33,6 +33,8 @@ public class PointBox : Box
 
     private void OnEnable()
     {
+        ResetBox();
+
         playerHealth.maxValue = activity.pointsToGoTo;
         playerHealth.value = activity.pointsToGoTo;
         opponentHealth.maxValue = activity.pointsToGoTo;
@@ -51,6 +53,8 @@ public class PointBox : Box
 
         playerScore = 0;
         opponentScore = 0;
+        opponentScoreText.text = opponentScore.ToString();
+        playerScoreText.text = playerScore.ToString();
 
         ended = false;
     }
