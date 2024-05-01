@@ -1,2 +1,3 @@
-Vicon test is the unity project
+Vicon test is the unity project folder
+
 
